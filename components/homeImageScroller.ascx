@@ -10,15 +10,15 @@
         <!-- The slideshow -->
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="/images/image2.jpg" alt="SLDC">
+                <img src="images/image2.jpg" alt="SLDC">
             </div>
 
             <div class="carousel-item">
-                <img src="/images/image3.jpg" alt="Punjab SLDC">
+                <img src="images/image3.jpg" alt="Punjab SLDC">
             </div>
 
             <div class="carousel-item">
-                <img src="/images/image4.jpg" alt="SLDC Punjab">
+                <img src="images/image4.jpg" alt="SLDC Punjab">
             </div>
 
         </div>
