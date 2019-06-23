@@ -40,17 +40,19 @@ function updateDynamicData() {
 }
 
 function myFunction(arr) {
-  document.getElementById("updateDate").innerHTML = arr.updateDate;
+  if (arr.updateDate != "" && arr.updateDate != null) {
+    document.getElementById("updateDate").innerHTML = arr.updateDate;
 
-  document.getElementById("frequencyHz").innerHTML = arr.frequencyHz;
+    document.getElementById("frequencyHz").innerHTML = arr.frequencyHz;
 
-  document.getElementById("drawalMW").innerHTML = arr.drawalMW;
+    document.getElementById("drawalMW").innerHTML = arr.drawalMW;
 
-  document.getElementById("scheduleMW").innerHTML = arr.scheduleMW;
+    document.getElementById("scheduleMW").innerHTML = arr.scheduleMW;
 
-  document.getElementById("odUD").innerHTML = arr.odUD;
+    document.getElementById("odUD").innerHTML = arr.odUD;
 
-  document.getElementById("loadMW").innerHTML = arr.loadMW;
+    document.getElementById("loadMW").innerHTML = arr.loadMW;
+  }
 }
 
 function drawCharts() {
