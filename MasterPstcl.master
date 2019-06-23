@@ -1,0 +1,167 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPstcl.master.cs" Inherits="MasterPstcl" %>
+<%@ Register Src="~/components/topMainStrip.ascx" TagPrefix="masterComponent" TagName="topMainStrip" %>
+<%@ Register Src="~/components/topMiddleLogoStrip.ascx" TagPrefix="masterComponent" TagName="topMiddleLogoStrip" %>
+<%@ Register Src="~/components/topNavBar.ascx" TagPrefix="masterComponent" TagName="topNavBar" %>
+
+<!DOCTYPE html>
+
+<head>
+
+
+
+    <title>Welcome to State Load Dispatch Centre (SLDC), PSTCL, Patiala, Punjab, India </title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+    <meta name="description"
+        content="www.Punjabsldc.org Punjab State Load Dispatch Centre (SLDC) is ensuring integrated operation of the power system with the NRLDC of India." />
+    <meta name="keywords"
+        content="SLDC, Electricity, Power, Pun, Load Dispatch, Punjab, State Load Despatch Centre, center, state, punjabSLDC" />
+    <meta name="expires" content="never" />
+    <meta name="allow-search" content="yes" />
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="./js/navbar.js"></script>
+        <script src="./js/style.js"></script>
+    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+        integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="./css/navbar.css" />
+    <link rel="stylesheet" href="./css/ipp_download.css" />
+    <link rel="stylesheet" href="./css/crousel.css" />
+    <link rel="stylesheet" href="./css/charts.css" />
+    <link rel="stylesheet" href="./css/footer.css?v=1" />
+    <link rel="stylesheet" href="./css/card.css" />
+    <link rel="stylesheet" href="./css/accordion.css" />
+    <link rel="stylesheet" href="./css/acc.css" />
+    <link href="./css/header.css?v=19.6.2019.16.16" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="./css/style.css" />
+
+
+    <link rel="stylesheet" id="styleSheetColor" />
+
+
+
+
+
+</head>
+
+<body>
+
+
+
+    <!--Main Header-->
+
+  <masterComponent:topMainStrip runat="server" Header="User Contact Us Page" />
+  <masterComponent:topMiddleLogoStrip runat="server" Header="User Contact Us Page" />
+  <masterComponent:topNavBar runat="server" Header="User Contact Us Page" />
+
+
+
+
+
+
+
+    <section class="content-wrapper main-content clear-fix page-row" id="skipmaincontent">
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+    </section>
+
+
+
+    <!-- Footer -->
+
+    <section id="footer">
+        <div class="container mat-box">
+            <div class="row text-center text-xs-center text-sm-left text-md-left">
+                <div class="col-xs-12 col-sm-4 col-md-4">
+                    <h5>Address</h5>
+                    <span style="color: #f0f0f0;">
+                        State Load Dispatch Centre<br>
+                        Ablowal, Patiala<br />
+                        PSTCL CIN: U40109PB2010SGC033814<br />
+                        <a href="mailto:ce-sldc@punjabsldc.org" target="_top"><i
+                                class="fa fa-envelope"></i>&nbsp;ce-sldc@punjabsldc.org</a><br>
+
+                        Phone: 0175-2367490<br>
+                        Fax: 0175-2365340 <br>
+                    </span>
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-4">
+                    <h5>Important links</h5>
+                    <ul class="list-unstyled quick-links">
+                        <li><a target="_blank" class="hyperText" href="http://www.nrldc.in/"><i
+                                    class="fa fa-angle-double-right"></i>NRLDC</a></li>
+                        <li><a target="_blank" class="hyperText" href="http://www.cercind.gov.in/"><i
+                                    class="fa fa-angle-double-right"></i>CERC</a></li>
+                        <li><a target="_blank" class="hyperText" href="http://pserc.in/"><i
+                                    class="fa fa-angle-double-right"></i>PSERC</a></li>
+                        <li><a target="_blank" class="hyperText" href="http://www.cea.nic.in/"><i
+                                    class="fa fa-angle-double-right"></i>CEA</a></li>
+                        <li><a target="_blank" class="hyperText" href="http://nrpc.gov.in/"><i
+                                    class="fa fa-angle-double-right"></i>NRPC</a></li>
+
+                    </ul>
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-4">
+                    <h5>More.. </h5>
+                    <ul class="list-unstyled quick-links">
+                        <li> <a class="hyperText" href="csr.aspx"><i class="fa fa-angle-double-right"></i>CSR Policy</a>
+                        </li>
+                        <li><a class="hyperText" href="help.aspx"><i class="fa fa-angle-double-right"></i>Help</a></li>
+                        <li> <a class="hyperText" href="termsofuse.aspx"><i class="fa fa-angle-double-right"></i>Terms
+                                of Use</a></li>
+                        <li><a class="hyperText" href="disclaimer.aspx"><i
+                                    class="fa fa-angle-double-right"></i>Disclaimer</a></li>
+
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 mt-sm-5">
+                    <ul class="list-unstyled list-inline social text-center">
+                        <li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-facebook"></i></a>
+                        </li>
+                        <li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-twitter"></i></a></li>
+                    </ul>
+                </div>
+                </hr>
+            </div>
+            <div class="row" style="padding-top:0px; padding-bottom:0px;">
+                <div class="col-xs-12 col-sm-12 col-md-12 mt-sm-2 text-center text-white">
+                    <asp:Label ID="lblLastMod" class="hyperText1" runat="server" Text="Label"></asp:Label><br /> Managed
+                    by O/o SE/IT, PSTCL, Patiala &nbsp;&nbsp;&nbsp;&copy; PSTCL, All Rights Reserved.
+                    </p>
+                </div>
+                </hr>
+            </div>
+        </div>
+    </section>
+
+    <!-- ./Footer -->
+
+
+
+
+
+
+
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-75766899-1', 'auto');
+        ga('send', 'pageview');
+
+    </script>
+
+</body>
+
+</html>

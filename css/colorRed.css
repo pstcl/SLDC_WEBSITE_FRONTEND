@@ -1,0 +1,69 @@
+body {
+  background: #fff;
+}
+.topMainstrip {
+  background-color: #ff4d2e;
+}
+.topstrip {
+  background: #f36513;
+}
+.navbar {
+  background-color: #ff4d2e;
+}
+
+#nav-content > .navbar-nav > .nav-item > .nav-link {
+  color: #fff;
+}
+
+#nav-content > .navbar-nav > .nav-item > .nav-link:hover {
+  color: #fff;
+  background-color: #fd4444;
+}
+
+.navbar-toggler {
+  border-color: white;
+  background-color: white;
+}
+.text {
+  color: #fff;
+}
+.hdtitle {
+  background: #d3fd17;
+  color: #fff;
+}
+.defaultcolor {
+  background: none repeat scroll 0 0 #fff;
+  border: 1px solid #fff;
+}
+
+.logotext {
+  color: #42413c;
+}
+a {
+  color: #fff;
+}
+.headerlft {
+  color: #fff;
+}
+
+.rightborder {
+  color: #fff;
+}
+
+.rightborder a {
+  color: #fff;
+}
+.topstripbar {
+  background: #f6fa1e;
+}
+.topMainstrip-one {
+  color: #fff;
+}
+.topMainstrpleft {
+  color: #fff;
+}
+
+.card-header {
+  background-color: #e66c4eea;
+  color: #fff;
+}

@@ -1,0 +1,27 @@
+#cardsnews {
+  box-sizing: border-box;
+}
+.rown{
+	display: flex;
+}
+/* Create two equal columns that floats next to each other */
+
+
+.left{
+  width: 25%;
+  display: table-cell;
+  padding: 16px;
+}
+
+.right{
+  width: 75%;
+  display: table-cell;
+  padding: 16px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}

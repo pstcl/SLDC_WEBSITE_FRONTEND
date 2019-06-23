@@ -1,0 +1,668 @@
+﻿body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Open Sans", helvetica, arial;
+  font-size: 14px;
+}
+
+*,
+html {
+  margin: 0;
+}
+
+a.arhives_txt {
+  font-weight: bold;
+  margin: 0 3px 3px 10px;
+  padding: 9px 0 8px 35px;
+  text-decoration: none;
+}
+
+.text {
+  float: right;
+  width: 40%;
+  padding: 5% 4% 0% 0%;
+  color: #fff;
+}
+
+#banner-fade {
+  height: 222px;
+  /*position: static !important;*/
+  float: left;
+  width: 410px;
+  height: 184px;
+  max-width: 410px;
+  position: relative;
+  padding-top: 6px;
+}
+
+ul.iconscont li {
+  list-style-type: none;
+  width: 209px;
+  height: 60px;
+  display: inline;
+  float: left;
+  margin: 2px 0 3px 5px;
+  text-align: center;
+  background: url(../Images/icons.png) no-repeat #0666b2;
+}
+
+.iconscont {
+  float: right;
+  width: 428px;
+  padding: 0;
+  margin: 0;
+}
+
+ul.iconscont li.one {
+  background-position: 8px 7px;
+}
+
+ul.iconscont li.two {
+  background-position: 8px -112px;
+}
+
+ul.iconscont li.three {
+  background-position: 8px -239px;
+}
+
+ul.iconscont li.four {
+  background-position: 8px -374px;
+}
+
+ul.iconscont li.five {
+  background-position: 8px -507px;
+}
+
+ul.iconscont li.six {
+  background-position: 8px -623px;
+  margin-right: 0;
+}
+
+ul.iconscont li a {
+  color: #fff;
+  float: left;
+  font-family: Arial;
+  font-size: 14px;
+  line-height: 19px;
+  padding-top: 13px;
+  padding-left: 43px;
+  text-align: center;
+  text-decoration: none;
+  width: 72%;
+}
+
+.bannertext {
+  font-size: 15px;
+  text-align: justify;
+}
+
+a.arhives_txt:hover {
+  text-decoration: underline;
+}
+
+.dataTableh td {
+  padding: 6px;
+}
+
+.srchbox {
+  float: left;
+  padding: 4px;
+}
+
+.btn_bluecolor {
+  cursor: pointer;
+  float: left;
+  padding: 4px;
+}
+
+.clrtbleleft {
+  clear: left;
+  float: left;
+}
+
+.clrtblergt {
+  clear: right;
+  float: right;
+}
+
+.hdtitle {
+  font-size: 16px;
+  margin: 0 0 10px;
+  padding: 3px;
+
+  display: block;
+
+  line-height: 22px;
+}
+
+.commonforcont_iiner {
+  float: left;
+  font-size: 13px;
+  padding: 0 1%;
+  text-align: justify;
+  width: 98%;
+  line-height: 168%;
+}
+
+.breadcrum {
+  margin: 5px 0 5px;
+  padding: 5px;
+}
+
+.printpage {
+  float: right;
+  margin: 0;
+  padding: 3px 0 4px 28px;
+  color: #fff;
+  transition-duration: 0.6s;
+}
+.printpage:hover {
+  color: #000;
+  text-decoration: none;
+  transition-duration: 0.6s;
+}
+
+.backpage {
+  float: right;
+  margin: 0 15px 0 0;
+  padding: 3px 0 4px 28px;
+  color: #fff;
+  transition-duration: 0.6s;
+}
+.backpage:hover {
+  color: #000;
+  text-decoration: none;
+  transition-duration: 0.6s;
+}
+
+.printsmatcont {
+  float: right;
+  font-size: 13px;
+  margin: -2px 13px 0;
+  position: absolute;
+  right: 0;
+  width: 20%;
+}
+
+.backpage {
+  float: right;
+  margin: 0 15px 0 0;
+  padding: 3px 0 4px 28px;
+}
+
+.printsmatcont a {
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.breadcrum a {
+  padding: 0 5px 0 0;
+  text-decoration: none;
+}
+
+.breadcrum a:hover {
+  text-decoration: underline;
+}
+
+@font-face {
+  font-family: "Myriad Pro Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Myriad Pro Regular"), url("MYRIADPRO-REGULAR.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Myriad Pro Condensed";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Myriad Pro Condensed"), url("MYRIADPRO-COND.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Myriad Pro Semibold Italic";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Myriad Pro Semibold Italic"),
+    url("MYRIADPRO-SEMIBOLDIT.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Myriad Pro Semibold";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Myriad Pro Semibold"),
+    url("MYRIADPRO-SEMIBOLD.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Myriad Pro Condensed Italic";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Myriad Pro Condensed Italic"),
+    url("MYRIADPRO-CONDIT.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Myriad Pro Bold Italic";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Myriad Pro Bold Italic"),
+    url("MYRIADPRO-BOLDIT.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Myriad Pro Bold Condensed Italic";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Myriad Pro Bold Condensed Italic"),
+    url("MYRIADPRO-BOLDCONDIT.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Myriad Pro Bold Condensed";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Myriad Pro Bold Condensed"),
+    url("MYRIADPRO-BOLDCOND.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Myriad Pro Bold";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Myriad Pro Bold"), url("MYRIADPRO-BOLD.woff") format("woff");
+}
+
+.body_bg {
+  margin: 0 auto;
+  width: 1024px;
+}
+
+.body_bg_wrp {
+  margin: 0;
+  width: 100%;
+  margin-top: 10px; /*background:url(../Images/bg.png) repeat-y;*/
+  float: left;
+}
+
+.mrquutab {
+  float: left;
+  height: 16px;
+  padding: 7px 0 8px 10px;
+  margin: 0px;
+  width: 78%;
+  border-top: dashed 1px #999;
+}
+
+#sizer a {
+  background: #fc0;
+  padding: 0 5px;
+  color: #000;
+}
+
+#MainContent_jsnews {
+  clear: left;
+  float: left;
+  height: 265px;
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 0;
+  line-height: 1.9em;
+  overflow: auto;
+  overflow-x: hidden;
+}
+
+#EngGrievances {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  margin: 0;
+  padding: 7px 0 7px 10px;
+  text-transform: uppercase;
+  background: url(../Images/arrow.jpg) no-repeat right center #e77615 !important;
+  color: #ffffff;
+}
+
+.marquee {
+  border-radius: 10px;
+  color: #000;
+  float: left;
+  width: 100%;
+}
+
+.topstrip {
+  float: left;
+  height: 33px;
+  width: 100%;
+}
+
+.defaultcolor {
+  background: none repeat scroll 0 0 #fff;
+  border: 1px solid #fff;
+  float: left;
+  height: 12px;
+  margin: 0 0 0 5px;
+  padding: 2px;
+  width: 12px;
+}
+
+.yellowcolor {
+  background: none repeat scroll 0 0 #ffea02;
+  border: 1px solid #fff;
+  float: left;
+  height: 12px;
+  margin: 0 0 0 5px;
+  padding: 2px;
+  width: 12px;
+}
+
+.pinkcolor {
+  background: none repeat scroll 0 0 #f30c0c;
+  border: 1px solid #fff;
+  float: left;
+  height: 12px;
+  margin: 0 0 0 5px;
+  padding: 2px;
+  width: 12px;
+}
+
+.bluecolor {
+  background: none repeat scroll 0 0 #3702ff;
+  border: 1px solid #fff;
+  float: left;
+  height: 12px;
+  margin: 0 0 0 5px;
+  padding: 2px;
+  width: 12px;
+}
+
+.logo {
+  float: left;
+  width: 100%;
+}
+
+.logoimg {
+  float: left;
+  width: 80px;
+  padding: 5px 15px 0px 0px;
+}
+
+.logotext {
+  list-style: none;
+  font-size: 16px;
+
+  padding: 0;
+  margin: 0;
+  line-height: 19px;
+}
+
+.logotext table th {
+  background-color: transparent !important;
+  border: none !important;
+}
+.logotext table th img {
+  vertical-align: bottom;
+}
+.logotext table th,
+.logotext table td {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+
+.topgigw {
+  float: left;
+  height: 32px;
+  margin: 1px 0 0;
+  padding: 0 2%;
+  width: 96%;
+}
+
+.headerlft {
+  float: left;
+  font-size: 12px;
+  margin: 7px 0 0;
+  padding: 0;
+  width: 30%;
+}
+
+.headerrgt {
+  float: left;
+  margin: 3px 0 0;
+  padding: 0;
+  text-align: right;
+  width: 70%;
+}
+
+.rightborder {
+  float: left;
+  font-weight: bold;
+  padding: 0 5px;
+}
+
+.ptqcss ul {
+  float: left;
+  list-style: none outside none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.ptqcss ul li {
+  display: inline-block;
+  border-right: dashed 1px #fff;
+  padding: 0 3px;
+}
+
+.ptqcss img {
+  float: left;
+  margin-right: 5px;
+}
+
+.ptqcss ul li {
+}
+
+.rightborder a {
+  text-decoration: none;
+}
+
+.topstripbar {
+  width: 100%;
+  float: left;
+  height: 35px;
+}
+
+.mhupa_wrapper {
+  float: left;
+  padding: 0 0 0 0;
+  top: 0;
+  width: 100%;
+  margin: 0 0 0px 0;
+}
+
+.goone {
+  font-family: myriad pro;
+  font-size: 21px;
+  font-weight: normal;
+  margin-top: 0px;
+}
+
+.gotwo {
+  color: #41414a;
+  font-family: myriad pro;
+  font-size: 30px;
+  font-weight: normal;
+}
+
+.gotwo a span {
+  color: #ac6422;
+}
+
+.mhupa_header {
+  float: left;
+  width: 100%;
+}
+
+.mhupa_lefthead {
+  float: left;
+  padding: 0;
+  width: 60%;
+}
+
+.mhupa-righthead {
+  float: right;
+  margin: 0;
+  width: 21%;
+}
+
+.mhupa_shortnavigator {
+  float: right;
+  list-style: none outside none;
+  margin: 0;
+  padding: 0;
+  text-align: right;
+}
+
+.mhupa_shortnavigator li {
+  display: inline;
+  float: left;
+}
+
+.mhupa_shortnavigator a {
+  color: #000000;
+  font-size: 11px;
+  font-weight: bold;
+  margin: 0 4px 0 0;
+  padding: 3px 0 0 21px;
+  text-decoration: none;
+}
+
+a.home {
+  background: url("../Images/icon.png") no-repeat scroll -4px 0 rgba(0, 0, 0, 0);
+}
+
+a.faq {
+  background: url("../Images/icon.png") no-repeat scroll -4px -26px
+    rgba(0, 0, 0, 0);
+}
+
+a.sitemap {
+  background: url("../Images/icon.png") no-repeat scroll -4px -52px
+    rgba(0, 0, 0, 0);
+}
+
+.srchboxcommon input {
+  border: medium none;
+  background: #f5f5f5;
+  color: #5e5e5e;
+  float: left;
+  padding: 2px 7px;
+}
+
+.srchboxcommon {
+  border: #ccc solid 1px;
+  border-radius: 8px 8px 8px 8px;
+  background: #f5f5f5;
+  padding: 5px;
+  margin-left: 11px;
+}
+
+.srchboxcommonsocial {
+  border: #ccc solid 1px;
+  border-radius: 8px 8px 8px 8px;
+  background: #f5f5f5;
+  padding: 5px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  float: right;
+}
+
+.srchboxcommonsocial a {
+  color: #8c620e;
+  float: left;
+  font-family: verdana;
+  font-size: 10px;
+  font-weight: normal;
+  line-height: 24px;
+  padding: 0 0px 0 2px;
+}
+
+.srchboxcommonsocial a img {
+  float: left;
+}
+
+.mhupa_mainheaderbox {
+  width: 100%;
+  float: left;
+}
+
+.topMainstrip {
+  margin: 0;
+  padding: 0;
+
+  width: 100%;
+  min-height: 30px;
+}
+.topMainstrip-one {
+  margin-left: 180px;
+  color: #fff;
+}
+
+.topMainstrpleft {
+  font-size: 12px;
+  padding-top: 8px;
+}
+.topMainstrprgt {
+  padding-top: 4px;
+  font-size: 12px;
+}
+.topMainScreen {
+  width: 43px;
+  float: left;
+}
+.topMainskip {
+  float: left;
+}
+.topMainFont {
+  float: left;
+}
+.topMainnorm {
+  float: left;
+  margin-left: 8px;
+}
+.topMainblk {
+  float: left;
+  margin-left: 1px;
+  margin-right: 2px;
+}
+.topMaintheme {
+  float: left;
+  padding: 0 5px;
+}
+.topMainhindi {
+  float: left;
+  margin-top: -3px;
+}
+
+/*---------------------------------------------------tab css----------------------------------------------------------------------*/
+nav ul,
+nav ol,
+ol,
+ul {
+  list-style: none;
+}
+
+.cf:before,
+.cf:after,
+.container:before,
+.container:after {
+  display: block;
+  content: "";
+}
+
+.cf:after,
+.container:after {
+  clear: both;
+}

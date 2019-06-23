@@ -1,0 +1,5 @@
+.table-info, .table-info>td, .table-info>th {
+    background-color: white;
+	border: solid 1px black; 
+	white-space:nowrap;
+}
