@@ -97,19 +97,19 @@
                         Open Acc.
                     </a>
                     <div class="dropdown-menu" aria-labelledby="Preview">
-                        <a class="dropdown-item" href="http://www.punjabsldc.org/index.asp?pg=oa">Information/Formats</a>
-                        <a class="dropdown-item" href="./open_access.aspx">IEX Schedules</a>
-                        <a class="dropdown-item" href="./open_access.aspx">PXIL Schedules</a>
-                        <a class="dropdown-item" href="./open_access.aspx">BILATERAL Schedules</a>
-                        <a class="dropdown-item" href="./open_access.aspx">STU/SLDC Bill</a>
-                        <a class="dropdown-item" href="./open_access.aspx">UI Energy Account</a>
-                        <a class="dropdown-item" href="./open_access.aspx">Online NOC</a>
-                        <a class="dropdown-item" href="./open_access.aspx">IEX Schedules (TOD Basis)</a>
-                        <a class="dropdown-item" href="./open_access.aspx">PXIL Schedules (TOD Basis)</a>
-                        <a class="dropdown-item" href="./open_access.aspx">BILATERAL Schedules (TOD Basis)</a>
-                        <a class="dropdown-item" href="./open_access.aspx">IEX Schedules (15 Mins)</a>
-                        <a class="dropdown-item" href="./open_access.aspx">PXIL Schedules (15 Mins)</a>
-                        <a class="dropdown-item" href="./open_access.aspx">BILATERAL Schedules (15 Mins)</a>
+                       <!-- <a class="dropdown-item" href="http://www.punjabsldc.org/index.asp?pg=oa">Information/Formats</a> -->
+                        <a class="dropdown-item" href="oa.aspx">Information/Formats</a>
+                        <a class="dropdown-item" href="iex.aspx"">IEX Schedules</a>
+                        <a class="dropdown-item" href="pxil.aspx">PXIL Schedules</a>
+                        <a class="dropdown-item" href="bilateral.aspx">BILATERAL Schedules</a>
+                        <a class="dropdown-item" href="bill.aspx">STU/SLDC Bill</a>
+                        <a class="dropdown-item" href="noc.aspx">Online NOC</a>
+                        <a class="dropdown-item" href="iex_tod.aspx">IEX Schedules (TOD Basis)</a>
+                        <a class="dropdown-item" href="pxil_tod.aspx">PXIL Schedules (TOD Basis)</a>
+                        <a class="dropdown-item" href="bilateral_tod.aspx">BILATERAL Schedules (TOD Basis)</a>
+                        <a class="dropdown-item" href="iex15.aspx">IEX Schedules (15 Mins)</a>
+                        <a class="dropdown-item" href="pxil15.aspx">PXIL Schedules (15 Mins)</a>
+                        <a class="dropdown-item" href="bilateral15.aspx">BILATERAL Schedules (15 Mins)</a>
                     </div>
                 </li>
 
