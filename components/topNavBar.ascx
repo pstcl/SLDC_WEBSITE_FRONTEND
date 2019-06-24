@@ -119,15 +119,26 @@
                             <a class="nav-link" href="./info.aspx">Info</a>
                         </li>
                 </div>
-
-
                 <li class="nav-item dropdown">
+                                                    
                     <a class="nav-link dropdown-toggle" data-toggle="dropdown" id="Preview" href="#" role="button"
                         aria-haspopup="true" aria-expanded="false">
-                        Downloads
+                        IPPs
                     </a>
                     <div class="dropdown-menu" aria-labelledby="Preview">
-                        <a class="dropdown-item" href=".\ipp_download.aspx">IPP</a>
+                        <a class="dropdown-item" href=".\Imp_dc.aspx">Implemented DC</a>
+
+                    </div>
+                <div class="dropdown-menu" aria-labelledby="Preview">
+                        <a class="dropdown-item" href=".\Imp_dc.aspx">Implemented Schedule</a>
+
+                    </div>
+                <div class="dropdown-menu" aria-labelledby="Preview">
+                        <a class="dropdown-item" href=".\Imp_dc.aspx">State Energy Account</a>
+
+                    </div>
+                <div class="dropdown-menu" aria-labelledby="Preview">
+                        <a class="dropdown-item" href=".\Imp_dc.aspx">UI Energy Account</a>
 
                     </div>
                 </li>
