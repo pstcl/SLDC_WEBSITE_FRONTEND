@@ -53,7 +53,7 @@
                         Availability
                     </a>
                     <div class="dropdown-menu" aria-labelledby="Preview">
-                        <a class="dropdown-item" href="/owngen.aspx">Punjab Own Generation</a>
+                        <a class="dropdown-item" href="/owngen.aspx">Punjab Own Generation </a>
                         <a class="dropdown-item" href="/ccshare.aspx">Share From Central Sector</a>
                     </div>
                 </li>
