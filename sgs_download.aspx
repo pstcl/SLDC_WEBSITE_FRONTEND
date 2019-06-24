@@ -8,8 +8,11 @@
 		 
 		 
 		 <script language="Javascript"  type="text/javascript">
-             
-            
+		 
+		 //function openWin(){
+		  //var iframe = document.getElementById('invisible');
+    		//iframe.src = "./downloadables/Implemented_DC/file.xlsx";
+		 }
 		 </script>
 	
         
@@ -24,6 +27,7 @@
                 <center>
                     <div class="col-md-6">
 					<div class="panel-group" id="accordion" role="tablist" >
+					<tr class="table-info">
 					
 					<tr>
 						 <td>
@@ -51,7 +55,7 @@
 									<tr> <td>	<b>  Select Month:  </b></td>						 
 							    						                           
 									 <td> 
-                                    <select id="month_dc"  name="s_month" size="1" >
+                                    <select name="s_month" size="1" >
                                     <option value="Feb2014">Feb 2014<option value="Mar2014">Mar 2014<option value="Apr2014">Apr 2014<option value="May2014">May 2014<option value="Jun2014">Jun 2014<option value="jul2014">Jul 2014<option value="aug2014">Aug 2014<option value="sep2014">Sep 2014<option value="Oct2014">Oct 2014<option value="Nov2014">Nov 2014<option value="Dec2014">Dec 2014
 									<option value="Jan2015">Jan 2015<option value="Feb2015">Feb 2015<option value="Mar2015">Mar 2015<option value="Apr2015">Apr 2015<option value="May2015">May 2015<option value="Jun2015">Jun 2015<option value="Jul2015">Jul 2015<option value="Aug2015">Aug 2015<option value="Sep2015">Sep 2015<option value="Oct2015">Oct 2015<option value="Nov2015">Nov 2015<option value="Dec2015">Dec 2015
 									<option value="Jan2016">Jan 2016<option value="Feb2016">Feb 2016<option value="Mar2016">Mar 2016<option value="Apr2016">Apr 2016<option value="May2016">May 2016<option value="Jun2016">Jun 2016<option value="Jul2016">Jul 2016<option value="Aug2016">Aug 2016<option value="Sep2016">Sep 2016<option value="Oct2016">Oct 2016<option value="Nov2016">Nov 2016<option value="Dec2016">Dec 2016
@@ -90,12 +94,10 @@
 									
 									<tr>
 									<td colspan="2">
-									<%--<button>
+									<button>
     								<a href="./downloadables/Implemented_DC/file.xlsx" download>View Declared Capacity</a> 
     								
-									</button>--%>
-                                    <input type="button" value="View Declared Capacity" style="width:150;font-family:Verdana;font-size:13px;font-weight:bold" onclick = "javascript: openWin();" id=button1 name=button1>
-
+									</button>
 									</td>
 									</tr>
 								</table>		
@@ -200,7 +202,7 @@
                                 <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" data-parent="#headingThree" aria-labelledby="headingThree">
                                     <div class="panel-body">
                                        
-										         <form id="implemented_sea" value="POST" class="table-responsive ">
+										         <form id="implemented_dc" value="POST" class="table-responsive ">
 							<table class="table-borderless " >							    
 		                             
 									<tr> <td>	<b>  Select Month:  </b></td>						 
@@ -257,7 +259,7 @@
                                 <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" data-parent="#headingFour" aria-labelledby="headingFour">
                                     <div class="panel-body">
 
-                                                 <form id="implemented_uea" value="POST" class="table-responsive">
+                                                 <form id="implemented_dc" value="POST" class="table-responsive">
 							<table class="table-borderless " >							    
 		                             
 									<tr> <td>	<b>  Select Month:  </b></td>						 

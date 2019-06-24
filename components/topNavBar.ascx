@@ -128,20 +128,37 @@
                     <div class="dropdown-menu" aria-labelledby="Preview">
                         <a class="dropdown-item" href=".\Imp_dc.aspx">Implemented DC</a>
 
-                    </div>
-                <div class="dropdown-menu" aria-labelledby="Preview">
-                        <a class="dropdown-item" href=".\Imp_dc.aspx">Implemented Schedule</a>
+                   
+                        <a class="dropdown-item" href=".\Imp_sch.aspx">Implemented Schedule</a>
 
-                    </div>
-                <div class="dropdown-menu" aria-labelledby="Preview">
-                        <a class="dropdown-item" href=".\Imp_dc.aspx">State Energy Account</a>
+                  
+               
+                        <a class="dropdown-item" href=".\state_ea.aspx">State Energy Account</a>
 
-                    </div>
-                <div class="dropdown-menu" aria-labelledby="Preview">
-                        <a class="dropdown-item" href=".\Imp_dc.aspx">UI Energy Account</a>
+                
+                        <a class="dropdown-item" href=".\ippui.aspx">UI Energy Account</a>
 
                     </div>
                 </li>
+
+                 <li class="nav-item dropdown">
+                                                    
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" id="Preview" href="#" role="button"
+                        aria-haspopup="true" aria-expanded="false">
+                        SGS
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="Preview">
+                        <a class="dropdown-item" href=".\imp_dcpb.aspx">Implemented DC</a>
+                        <a class="dropdown-item" href=".\imp_schpb.aspx">Implemented Schedule</a>
+                        <a class="dropdown-item" href=".\state_eapb.aspx">State Energy Account</a>
+
+
+                    </div>
+                </li>
+
+
+
+
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" data-toggle="dropdown" id="Preview" href="#" role="button"
                         aria-haspopup="true" aria-expanded="false">
