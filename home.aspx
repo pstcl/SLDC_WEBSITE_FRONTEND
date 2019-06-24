@@ -5,7 +5,7 @@
 <%@ Register Src="~/components/homeImageScroller.ascx" TagPrefix="custcomponent" TagName="homeImageScroller" %>
 <%@ Register Src="~/components/gridLinks.ascx" TagPrefix="custcomponent" TagName="gridLinks" %>
 <%@ Register Src="~/components/linksRibbon.ascx" TagPrefix="custcomponent" TagName="linksRibbon" %>
-<%@ Register Src="~/components/chartsContainer.ascx" TagPrefix="custcomponent" TagName="chartsContainer" %>
+<%@ Register Src="~/components/chartsHomeContainer.ascx" TagPrefix="custcomponent" TagName="chartsHomeContainer" %>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
   <div>
@@ -47,7 +47,7 @@
       <div class="col-8">
         <custcomponent:homeImageScroller runat="server" id="homeImageScroller" Header="User Contact Us Page" />
 
-        <custcomponent:chartsContainer runat="server" id="chartsContainer" Header="User Contact Us Page" />
+        <custcomponent:chartsHomeContainer runat="server" id="chartsContainer" Header="User Contact Us Page" />
         <custcomponent:aboutComponent runat="server" id="aboutComponent" Header="User Contact Us Page" />
 
       </div>
