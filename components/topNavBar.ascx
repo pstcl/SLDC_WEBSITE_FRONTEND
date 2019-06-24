@@ -24,6 +24,12 @@
                         </li>
                 </div>
 
+ <div class="collapse navbar-collapse" id="nav-content">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="./about.aspx">About Us</a>
+                        </li>
+                </div>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" data-toggle="dropdown" id="Preview" href="#" role="button"
                         aria-haspopup="true" aria-expanded="false">
@@ -53,8 +59,8 @@
                         Availability
                     </a>
                     <div class="dropdown-menu" aria-labelledby="Preview">
-                        <a class="dropdown-item" href="#">Punjab Own Generation</a>
-                        <a class="dropdown-item" href="#">Share From Central Sector</a>
+                        <a class="dropdown-item" href="/owngen.aspx">Punjab Own Generation </a>
+                        <a class="dropdown-item" href="/ccshare.aspx">Share From Central Sector</a>
                     </div>
                 </li>
 
@@ -71,8 +77,8 @@
                         Tenders
                     </a>
                     <div class="dropdown-menu" aria-labelledby="Preview">
-                        <a class="dropdown-item" href="#">NIT/RFP</a>
-                        <a class="dropdown-item" href="#">EOI</a>
+                        <a class="dropdown-item" href="/nit_master.aspx">NIT/RFP </a>
+                        <a class="dropdown-item" href="/eoi_master.aspx">EOI</a>
                     </div>
                 </li>
                 <li class="nav-item dropdown">
@@ -81,7 +87,7 @@
                         RTI
                     </a>
                     <div class="dropdown-menu" aria-labelledby="Preview">
-                        <a class="dropdown-item" href="#">Spotlight on RTI</a>
+                        <a class="dropdown-item" href="/spotlightrti.aspx">Spotlight on RTI</a>
                         <a class="dropdown-item" href="http://www.punjabsldc.org/RTI/pio.pdf">PIO/APIO</a>
                     </div>
                 </li>

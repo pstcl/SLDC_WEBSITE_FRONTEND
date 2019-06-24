@@ -53,4 +53,12 @@
                 </div>
 
         </div>
+        
+            <div class="readmore">
+              <a href="/detailedCharts.aspx" style="text-decoration: none;" >
+
+
+                <span id="divread1">more..</span>
+              </a>
+            </div>
 </div>
