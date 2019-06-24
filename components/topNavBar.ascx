@@ -24,6 +24,12 @@
                         </li>
                 </div>
 
+ <div class="collapse navbar-collapse" id="nav-content">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="./about.aspx">About Us</a>
+                        </li>
+                </div>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" data-toggle="dropdown" id="Preview" href="#" role="button"
                         aria-haspopup="true" aria-expanded="false">
