@@ -1,7 +1,7 @@
 ﻿<%@ Page Title="Availability as per Installed Ca" Language="C#" MasterPageFile="~/MasterPstcl.master" AutoEventWireup="true" CodeFile="owngen.aspx.cs" Inherits="owngen" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
-<table BORDER CELLSPACING="1" CELLPADDING="7" WIDTH="599" ALIGN="LEFT" HSPACE="12" DIR="LTR">
+<table BORDER CELLSPACING="1" CELLPADDING="7" WIDTH="685" DIR="LTR">
 	<tr>
 		<td VALIGN="TOP" HEIGHT="38">
 		<font FACE="Arial" SIZE="6">
