@@ -53,8 +53,6 @@
 
 
 
-    <!--Main Header-->
-<h2> HACKED</h2> <br />
   <masterComponent:topMainStrip runat="server" Header="User Contact Us Page" />
   <masterComponent:topMiddleLogoStrip runat="server" Header="User Contact Us Page" />
   <masterComponent:topNavBar runat="server" Header="User Contact Us Page" />
