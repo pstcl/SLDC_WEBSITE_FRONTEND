@@ -81,7 +81,7 @@
                         RTI
                     </a>
                     <div class="dropdown-menu" aria-labelledby="Preview">
-                        <a class="dropdown-item" href="/spotlightrti.aspx">Spotlight on RTI</a>
+                        <a class="dropdown-item" href="spotlightrti.aspx">Spotlight on RTI</a>
                         <a class="dropdown-item" href="http://www.punjabsldc.org/RTI/pio.pdf">PIO/APIO</a>
                     </div>
                 </li>
