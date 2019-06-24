@@ -91,9 +91,19 @@
                         Open Acc.
                     </a>
                     <div class="dropdown-menu" aria-labelledby="Preview">
-                        <a class="dropdown-item"
-                            href="http://www.punjabsldc.org/index.asp?pg=oa">Introduction/Formats</a>
-                        <a class="dropdown-item" href="./open_access.aspx">Downloads</a>
+                        <a class="dropdown-item" href="http://www.punjabsldc.org/index.asp?pg=oa">Information/Formats</a>
+                        <a class="dropdown-item" href="./open_access.aspx">IEX Schedules</a>
+                        <a class="dropdown-item" href="./open_access.aspx">PXIL Schedules</a>
+                        <a class="dropdown-item" href="./open_access.aspx">BILATERAL Schedules</a>
+                        <a class="dropdown-item" href="./open_access.aspx">STU/SLDC Bill</a>
+                        <a class="dropdown-item" href="./open_access.aspx">UI Energy Account</a>
+                        <a class="dropdown-item" href="./open_access.aspx">Online NOC</a>
+                        <a class="dropdown-item" href="./open_access.aspx">IEX Schedules (TOD Basis)</a>
+                        <a class="dropdown-item" href="./open_access.aspx">PXIL Schedules (TOD Basis)</a>
+                        <a class="dropdown-item" href="./open_access.aspx">BILATERAL Schedules (TOD Basis)</a>
+                        <a class="dropdown-item" href="./open_access.aspx">IEX Schedules (15 Mins)</a>
+                        <a class="dropdown-item" href="./open_access.aspx">PXIL Schedules (15 Mins)</a>
+                        <a class="dropdown-item" href="./open_access.aspx">BILATERAL Schedules (15 Mins)</a>
                     </div>
                 </li>
 
