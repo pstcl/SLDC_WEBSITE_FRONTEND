@@ -98,18 +98,18 @@
                     </a>
                     <div class="dropdown-menu" aria-labelledby="Preview">
                        <!-- <a class="dropdown-item" href="http://www.punjabsldc.org/index.asp?pg=oa">Information/Formats</a> -->
-                        <a class="dropdown-item" href="index.asp?pg=oa">Information/Formats</a>
-                        <a class="dropdown-item" href="index.asp?pg=iex"">IEX Schedules</a>
-                        <a class="dropdown-item" href="index.asp?pg=pxil">PXIL Schedules</a>
-                        <a class="dropdown-item" href="index.asp?pg=bilateral">BILATERAL Schedules</a>
-                        <a class="dropdown-item" href="index.asp?pg=bill">STU/SLDC Bill</a>
-                        <a class="dropdown-item" href="index.asp?pg=noc">Online NOC</a>
-                        <a class="dropdown-item" href="index.asp?pg=iex_tod">IEX Schedules (TOD Basis)</a>
-                        <a class="dropdown-item" href="index.asp?pg=pxil_tod">PXIL Schedules (TOD Basis)</a>
-                        <a class="dropdown-item" href="index.asp?pg=bilateral_tod">BILATERAL Schedules (TOD Basis)</a>
-                        <a class="dropdown-item" href="index.asp?pg=iex15">IEX Schedules (15 Mins)</a>
-                        <a class="dropdown-item" href="index.asp?pg=pxil15">PXIL Schedules (15 Mins)</a>
-                        <a class="dropdown-item" href="index.asp?pg=bilateral15">BILATERAL Schedules (15 Mins)</a>
+                        <a class="dropdown-item" href="oa.aspx">Information/Formats</a>
+                        <a class="dropdown-item" href="iex.aspx"">IEX Schedules</a>
+                        <a class="dropdown-item" href="pxil.aspx">PXIL Schedules</a>
+                        <a class="dropdown-item" href="bilateral.aspx">BILATERAL Schedules</a>
+                        <a class="dropdown-item" href="bill.aspx">STU/SLDC Bill</a>
+                        <a class="dropdown-item" href="noc.aspx">Online NOC</a>
+                        <a class="dropdown-item" href="iex_tod.aspx">IEX Schedules (TOD Basis)</a>
+                        <a class="dropdown-item" href="pxil_tod.aspx">PXIL Schedules (TOD Basis)</a>
+                        <a class="dropdown-item" href="bilateral_tod.aspx">BILATERAL Schedules (TOD Basis)</a>
+                        <a class="dropdown-item" href="iex15.aspx">IEX Schedules (15 Mins)</a>
+                        <a class="dropdown-item" href="pxil15.aspx">PXIL Schedules (15 Mins)</a>
+                        <a class="dropdown-item" href="bilateral15.aspx">BILATERAL Schedules (15 Mins)</a>
                     </div>
                 </li>
 
