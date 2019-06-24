@@ -1,6 +1,6 @@
 ﻿<%@ Page Title="Welcome To PSTCL" Language="C#" MasterPageFile="~/MasterPstcl.master" AutoEventWireup="true" CodeFile="about.aspx.cs" Inherits="_about" %>
 
-<!aman-->
+
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
    <div>
 
