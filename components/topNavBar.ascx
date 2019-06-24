@@ -71,7 +71,7 @@
                         Tenders
                     </a>
                     <div class="dropdown-menu" aria-labelledby="Preview">
-                        <a class="dropdown-item" href="/nit_matser.aspx">NIT/RFP</a>
+                        <a class="dropdown-item" href="/nit_matser.aspx">NIT/RFP </a>
                         <a class="dropdown-item" href="/eoi_master.aspx">EOI</a>
                     </div>
                 </li>
