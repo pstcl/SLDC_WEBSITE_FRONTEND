@@ -11,6 +11,11 @@
   <div>
     <script src="https://www.gstatic.com/charts/loader.js"></script>
     <script type="text/javascript" src="./js/chartfinal.js"></script>
+    <script type="text/javascript" src="./js/odudChart.js"></script>
+    <script type="text/javascript" src="./js/frequencyChart.js"></script>
+    <script type="text/javascript" src="./js/drawalChart.js"></script>
+
+
     <link rel="stylesheet" href="./css/chartfinal.css">
     </link>
 
@@ -18,6 +23,7 @@
     </link>
     <link rel="stylesheet" href="./css/bottom_div_cards.css">
     </link>
+
     <script type="text/javascript">
       google.charts.load('current', {
         packages: ['corechart', 'line']
@@ -31,9 +37,20 @@
 
       $(document).ready(function () {
         updateDynamicData();
+        drawCharts();
         setInterval(updateDynamicData, 60000);
 
       });
+
+    </script>
+    <script>
+      function drawCharts() {
+        drawFrequencyChart();
+        drawDrawalChart();
+        //drawGauge();
+        //drawScheduleChart();
+        drawOdudChart();
+      }
     </script>
     <script type="text/javascript">
       google.charts.setOnLoadCallback(drawCharts);
