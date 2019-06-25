@@ -8,7 +8,7 @@
                             </div>
 <div class="PostContent">
 
-<p style="text-align:justify">(A)&nbsp;&nbsp;&nbsp;&nbsp;<a href="index.asp?pg=pn">Public Notices</a><!--<img border="0" src="../images/new.gif" width="35" height="19"></p>-->
+<p style="text-align:justify">(A)&nbsp;&nbsp;&nbsp;&nbsp;<a href="publicnotice.aspx">Public Notices</a><!--<img border="0" src="../images/new.gif" width="35" height="19"></p>-->
 <p style="text-align:justify">(B)&nbsp;&nbsp;&nbsp; Purchase of Power through Open Access by consumer of PSPCL/PSTCL <!--<img border="0" src="../images/new.gif" width="35" height="19"></p>-->
 <p  style="text-align:justify">1.&nbsp;&nbsp;&nbsp;
 <a target="_blank" href="oa/Revised Open Access Procedures (Final Approved).pdf">Revised Short Term Open Access 
