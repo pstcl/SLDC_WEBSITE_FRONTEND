@@ -7,7 +7,7 @@
                         <tr>
                             <th style="width: 90px;" rowspan="4"><a href='/' title="PSTCL LOGO">
                                     <img src='images/logo/pstcllogo.png' id="usrPnlLogo" alt="PSTCL" title="PSTCL"
-                                        height="80" width="80" /></a> </th>
+                                        height="70" width="80" /></a> </th>
                             <th>
                                 <!--         <a href='/'  title="खान मंत्रालय"><span title="खान मंत्रालय" id="SubHeadLbl">
             पंजाब सरकार</span></a>-->
