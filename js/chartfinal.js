@@ -44,13 +44,15 @@ function myFunction(arr) {
 
     document.getElementById("frequencyHz").innerHTML = arr.frequencyHz;
 
-    document.getElementById("drawalMW").innerHTML = arr.drawalMW;
+    document.getElementById("drawalMW").innerHTML = Math.round(arr.drawalMW);
 
-    document.getElementById("scheduleMW").innerHTML = arr.scheduleMW;
+    document.getElementById("scheduleMW").innerHTML = Math.round(
+      arr.scheduleMW
+    );
 
-    document.getElementById("odUD").innerHTML = arr.odUD;
+    document.getElementById("odUD").innerHTML = Math.round(arr.odUD);
 
-    document.getElementById("loadMW").innerHTML = arr.loadMW;
+    document.getElementById("loadMW").innerHTML = Math.round(arr.loadMW);
   }
 }
 

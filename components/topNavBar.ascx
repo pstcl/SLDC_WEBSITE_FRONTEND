@@ -1,7 +1,8 @@
+
   <!--navbar-->
     <nav class="navbar navbar-expand-sm">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-content"
-            aria-controls="nav-content" aria-expanded="false" aria-label="Toggle navigation" color:.navbar-toggler>
+            aria-controls="nav-content" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon navbar-dark"></span>
         </button>
 
