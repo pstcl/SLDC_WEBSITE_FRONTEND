@@ -2,6 +2,6 @@
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
     <div>
-        <iframe style="width:100%;height:4800px;" src="http://www.punjabsldc.org/solarppW.asp?pg=solarppW"></iframe>
+        <iframe style="width:100%;height:4800px;" src="http://www.punjabsldc.org/oldsite/solarppW.asp?pg=solarppW"></iframe>
     </div>
 </asp:Content>

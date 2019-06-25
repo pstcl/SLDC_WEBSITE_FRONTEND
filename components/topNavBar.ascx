@@ -88,7 +88,7 @@
                     </a>
                     <div class="dropdown-menu" aria-labelledby="Preview">
                         <a class="dropdown-item" href="spotlightrti.aspx">Spotlight on RTI</a>
-                        <a class="dropdown-item" href="http://www.punjabsldc.org/RTI/pio.pdf">PIO/APIO</a>
+                        <a class="dropdown-item" href="http://www.punjabsldc.org/oldsite/RTI/pio.pdf">PIO/APIO</a>
                     </div>
                 </li>
                 <li class="nav-item dropdown">
@@ -97,7 +97,7 @@
                         Open Acc.
                     </a>
                     <div class="dropdown-menu" aria-labelledby="Preview">
-                       <!-- <a class="dropdown-item" href="http://www.punjabsldc.org/index.asp?pg=oa">Information/Formats</a> -->
+                       <!-- <a class="dropdown-item" href="http://www.punjabsldc.org/oldsite/index.asp?pg=oa">Information/Formats</a> -->
                         <a class="dropdown-item" href="oa.aspx">Information/Formats</a>
                         <a class="dropdown-item" href="iex.aspx"">IEX Schedules</a>
                         <a class="dropdown-item" href="pxil.aspx">PXIL Schedules</a>
@@ -165,7 +165,7 @@
                         Mails
                     </a>
                     <div class="dropdown-menu" aria-labelledby="Preview">
-                        <a class="dropdown-item" href="http://www.punjabsldc.org/News/list%20of%20emails.pdf">List of
+                        <a class="dropdown-item" href="http://www.punjabsldc.org/oldsite/News/list%20of%20emails.pdf">List of
                             e-mail IDs</a>
                     </div>
                 </li>
