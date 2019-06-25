@@ -44,14 +44,8 @@
                 <div class="mhupa_shortnavigator">
                     <div class="full">
                         <span class="srchboxcommonsocial">
-                            <a class="sitemapicon" href='/Home/SiteMap' title="Sitemap">
-                                Sitemap</a>
-                            <a class="mailicon" href="mailto:dom@nic.in?Subject=Feedback" target="_top">
-                                Mail</a>
-                            <a class="twiitericon" href="https://twitter.com/" style="color: #379eec;" title="Twitter"
-                                target="_blank"
-                                onclick="return confirm('This link shall take you to a page/website outside this website.For any query regarding the contents of the linked page/website, please contact the webmaster of the concerned website.')">
-                                Twitter</a>
+                               <a class="dropdown-item" href="http://www.punjabsldc.org/">Old Website</a>
+                            
                         </span>
                     </div>
                     <div class="full" role="search">
