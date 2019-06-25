@@ -67,6 +67,8 @@ function updateGaugeData() {
       var myArr = JSON.parse(this.responseText);
       gaugeData.removeRows(0);
       gaugeData.setCell(0, 0, myArr[0].value);
+      document.getElementById("frequencyHz").innerHTML = myArr[0].value;
+
       gauge.draw(gaugeData, gaugeOptions);
     } else if (this.status != 200) {
       console.log("Ready state" + this.readyState + "  Status:" + this.status);
