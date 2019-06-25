@@ -10,6 +10,9 @@
 
         <!-- Links -->
         <div class="collapse navbar-collapse" id="nav-content">
+         
+         
+                            
             <ul class="navbar-nav">
 
 
@@ -36,13 +39,13 @@
                         Real Time
                     </a>
                     <div class="dropdown-menu" aria-labelledby="Preview">
-                       <a class="dropdown-item" href="realtimepbGen.aspx">Punjab
+                        <a class="dropdown-item" href="realtimepbGen.aspx">Punjab
                             Own Generation</a>
                         <a class="dropdown-item" href="realtimenrstates.aspx">NR States
                             Generation</a>
                         <a class="dropdown-item" href="realtimeresgen.aspx">RES
                             Generation</a>
-                         <a class="dropdown-item" href="#">Telemetry Issues</a>
+                        <a class="dropdown-item" href="#">Telemetry Issues</a>
                         <a class="dropdown-item" href="#">NRLDC</a>
                         <a class="dropdown-item" href="http://103.7.128.190/wbes/Report/Entitlement">Entitlements</a>
                         <a class="dropdown-item"
@@ -59,8 +62,8 @@
                         Availability
                     </a>
                     <div class="dropdown-menu" aria-labelledby="Preview">
-                        <a class="dropdown-item" href="/owngen.aspx">Punjab Own Generation </a>
-                        <a class="dropdown-item" href="/ccshare.aspx">Share From Central Sector</a>
+                        <a class="dropdown-item" href="owngen.aspx">Punjab Own Generation</a>
+                        <a class="dropdown-item" href="ccshare.aspx">Share From Central Sector</a>
                     </div>
                 </li>
 
@@ -77,8 +80,8 @@
                         Tenders
                     </a>
                     <div class="dropdown-menu" aria-labelledby="Preview">
-                        <a class="dropdown-item" href="nit_master.aspx">NIT/RFP </a>
-                        <a class="dropdown-item" href="eoi_master.aspx">EOI</a>
+                        <a class="dropdown-item" href="/nit_matser.aspx">NIT/RFP </a>
+                        <a class="dropdown-item" href="/eoi_master.aspx">EOI</a>
                     </div>
                 </li>
                 <li class="nav-item dropdown">
@@ -97,19 +100,19 @@
                         Open Acc.
                     </a>
                     <div class="dropdown-menu" aria-labelledby="Preview">
-                       <!-- <a class="dropdown-item" href="http://www.punjabsldc.org/oldsite/index.asp?pg=oa">Information/Formats</a> -->
-                        <a class="dropdown-item" href="oa.aspx">Information/Formats</a>
-                        <a class="dropdown-item" href="iex.aspx"">IEX Schedules</a>
-                        <a class="dropdown-item" href="pxil.aspx">PXIL Schedules</a>
-                        <a class="dropdown-item" href="bilateral.aspx">BILATERAL Schedules</a>
-                        <a class="dropdown-item" href="bill.aspx">STU/SLDC Bill</a>
-                        <a class="dropdown-item" href="noc.aspx">Online NOC</a>
-                        <a class="dropdown-item" href="iex_tod.aspx">IEX Schedules (TOD Basis)</a>
-                        <a class="dropdown-item" href="pxil_tod.aspx">PXIL Schedules (TOD Basis)</a>
-                        <a class="dropdown-item" href="bilateral_tod.aspx">BILATERAL Schedules (TOD Basis)</a>
-                        <a class="dropdown-item" href="iex15.aspx">IEX Schedules (15 Mins)</a>
-                        <a class="dropdown-item" href="pxil15.aspx">PXIL Schedules (15 Mins)</a>
-                        <a class="dropdown-item" href="bilateral15.aspx">BILATERAL Schedules (15 Mins)</a>
+                        <a class="dropdown-item" href="http://www.punjabsldc.org/oldsite/index.asp?pg=oa">Information/Formats</a>
+                        <a class="dropdown-item" href="./open_access.aspx">IEX Schedules</a>
+                        <a class="dropdown-item" href="./open_access.aspx">PXIL Schedules</a>
+                        <a class="dropdown-item" href="./open_access.aspx">BILATERAL Schedules</a>
+                        <a class="dropdown-item" href="./open_access.aspx">STU/SLDC Bill</a>
+                        <a class="dropdown-item" href="./open_access.aspx">UI Energy Account</a>
+                        <a class="dropdown-item" href="./open_access.aspx">Online NOC</a>
+                        <a class="dropdown-item" href="./open_access.aspx">IEX Schedules (TOD Basis)</a>
+                        <a class="dropdown-item" href="./open_access.aspx">PXIL Schedules (TOD Basis)</a>
+                        <a class="dropdown-item" href="./open_access.aspx">BILATERAL Schedules (TOD Basis)</a>
+                        <a class="dropdown-item" href="./open_access.aspx">IEX Schedules (15 Mins)</a>
+                        <a class="dropdown-item" href="./open_access.aspx">PXIL Schedules (15 Mins)</a>
+                        <a class="dropdown-item" href="./open_access.aspx">BILATERAL Schedules (15 Mins)</a>
                     </div>
                 </li>
 
@@ -119,46 +122,18 @@
                             <a class="nav-link" href="./info.aspx">Info</a>
                         </li>
                 </div>
+
+
                 <li class="nav-item dropdown">
-                                                    
                     <a class="nav-link dropdown-toggle" data-toggle="dropdown" id="Preview" href="#" role="button"
                         aria-haspopup="true" aria-expanded="false">
-                        IPPs
+                        Downloads
                     </a>
                     <div class="dropdown-menu" aria-labelledby="Preview">
-                        <a class="dropdown-item" href=".\Imp_dc.aspx">Implemented DC</a>
-
-                   
-                        <a class="dropdown-item" href=".\Imp_sch.aspx">Implemented Schedule</a>
-
-                  
-               
-                        <a class="dropdown-item" href=".\state_ea.aspx">State Energy Account</a>
-
-                
-                        <a class="dropdown-item" href=".\ippui.aspx">UI Energy Account</a>
+                        <a class="dropdown-item" href=".\ipp_download.aspx">IPP</a>
 
                     </div>
                 </li>
-
-                 <li class="nav-item dropdown">
-                                                    
-                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" id="Preview" href="#" role="button"
-                        aria-haspopup="true" aria-expanded="false">
-                        SGS
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="Preview">
-                        <a class="dropdown-item" href=".\imp_dcpb.aspx">Implemented DC</a>
-                        <a class="dropdown-item" href=".\imp_schpb.aspx">Implemented Schedule</a>
-                        <a class="dropdown-item" href=".\state_eapb.aspx">State Energy Account</a>
-
-
-                    </div>
-                </li>
-
-
-
-
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" data-toggle="dropdown" id="Preview" href="#" role="button"
                         aria-haspopup="true" aria-expanded="false">
@@ -192,6 +167,18 @@
                     <div class="dropdown-menu" aria-labelledby="Preview">
                         <a class="dropdown-item" href="#">LOGIN</a>
 
+                    </div>
+                </li>
+                <li>
+                 <div class="full" role="search">
+                        <span style="float: left; margin-top: 15px;" class="srchboxcommon">
+                            <label for="Search"></label>
+                            <input name="Search" type="text" id="searchTxt" title="Search" autocomplete="off"
+                                placeholder="Search" style="color: #5E5E5E; width: 150px; border: none;" onkeydown="">
+                            <label for="ImageButton1"></label>
+                            <input type="image" name="ctl00$ImageButton1" id="searchBtn" alt="search" title="search"
+                                src='./images/search.png' />
+                        </span>
                     </div>
                 </li>
 

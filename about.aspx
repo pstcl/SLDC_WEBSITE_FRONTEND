@@ -277,7 +277,7 @@ granted for 90.9 MW (approx.) have valid consent as on date. These consumers are
 purchasing power through power exchange based on their day to day requirement 
 and market trend.</p>
 <p ALIGN="JUSTIFY" class="card-text" DIR="LTR"></p>
-<p>To know about guidelines, procedure &amp; formats for grant of Open Access,&nbsp;</font></span><a href="http://www.punjabsldc.org/index.asp?pg=oa"><span LANG="EN"><font FACE="Georgia" >click 
+<p>To know about guidelines, procedure &amp; formats for grant of Open Access,&nbsp;</font></span><a href="http://www.punjabsldc.org/oldsite/index.asp?pg=oa"><span LANG="EN"><font FACE="Georgia" >click 
 here</font></span></a><span LANG="EN"><font FACE="Georgia" SIZE="2">. Or you may 
 visit </font></span><a href="http://www.pspcl.in//t_blank"><span LANG="EN">
 <font FACE="Georgia" >www.pspcl.in.</font></span></a>

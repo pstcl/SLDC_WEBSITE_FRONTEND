@@ -26,10 +26,10 @@
                                     <div class="panel-body">
                                         <p>
 										                         		                               
-					 <ul><li><a href="http://www.punjabsldc.org/downloads/atc-ttc.pdf">ATC/TTC(Pb.)</a></li>
-<li><a href="http://www.punjabsldc.org/downloads/fy12-13.pdf">Presentations</a></li>
-<li><a href="http://www.punjabsldc.org/downloads/emergency-contact.pdf">Crisis Management : Emergency Contact Numbers</a></li>
-<li><a href="http://www.punjabsldc.org/downloads/restoration-proc.pdf">  Crisis Management : Restoration procedure</a></li>
+					 <ul><li><a href="http://www.punjabsldc.org/oldsite/downloads/atc-ttc.pdf">ATC/TTC(Pb.)</a></li>
+<li><a href="http://www.punjabsldc.org/oldsite/downloads/fy12-13.pdf">Presentations</a></li>
+<li><a href="http://www.punjabsldc.org/oldsite/downloads/emergency-contact.pdf">Crisis Management : Emergency Contact Numbers</a></li>
+<li><a href="http://www.punjabsldc.org/oldsite/downloads/restoration-proc.pdf">  Crisis Management : Restoration procedure</a></li>
 </ul>									
 	                          		</p>
                                     </div>
@@ -71,8 +71,8 @@
                                 <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" data-parent="#headingFour" aria-labelledby="headingFour">
                                     <div class="panel-body">
                                         <p>
-                                            <ul><li><a href="http://www.punjabsldc.org/downloads/fy11-12.pdf">FY 2011-12</a></li>
-<li><a href="http://www.punjabsldc.org/downloads/fy12-13.pdf">FY 2012-13</a></li></ul>									
+                                            <ul><li><a href="http://www.punjabsldc.org/oldsite/downloads/fy11-12.pdf">FY 2011-12</a></li>
+<li><a href="http://www.punjabsldc.org/oldsite/downloads/fy12-13.pdf">FY 2012-13</a></li></ul>									
 										</p>
                                     </div>
                                 </div>

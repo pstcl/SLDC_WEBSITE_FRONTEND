@@ -7,7 +7,7 @@
                         <tr>
                             <th style="width: 90px;" rowspan="4"><a href='/' title="PSTCL LOGO">
                                     <img src='images/logo/pstcllogo.png' id="usrPnlLogo" alt="PSTCL" title="PSTCL"
-                                        height="80" width="80" /></a> </th>
+                                        height="70" width="80" /></a> </th>
                             <th>
                                 <!--         <a href='/'  title="खान मंत्रालय"><span title="खान मंत्रालय" id="SubHeadLbl">
             पंजाब सरकार</span></a>-->
@@ -44,14 +44,8 @@
                 <div class="mhupa_shortnavigator">
                     <div class="full">
                         <span class="srchboxcommonsocial">
-                            <a class="sitemapicon" href='/Home/SiteMap' title="Sitemap">
-                                Sitemap</a>
-                            <a class="mailicon" href="mailto:dom@nic.in?Subject=Feedback" target="_top">
-                                Mail</a>
-                            <a class="twiitericon" href="https://twitter.com/" style="color: #379eec;" title="Twitter"
-                                target="_blank"
-                                onclick="return confirm('This link shall take you to a page/website outside this website.For any query regarding the contents of the linked page/website, please contact the webmaster of the concerned website.')">
-                                Twitter</a>
+                               <a class="dropdown-item" href="http://www.punjabsldc.org/oldsite/">Old Website</a>
+                            
                         </span>
                     </div>
                     <div class="full" role="search">

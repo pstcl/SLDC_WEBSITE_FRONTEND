@@ -55,7 +55,8 @@ function drawDrawalChart() {
         fontSize: 12,
         bold: true,
         italic: false
-      }
+      },
+      slantedText: false
     },
     vAxis: {
       title: "Drawal(MW)",

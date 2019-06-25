@@ -1,7 +1,7 @@
-﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPstcl.master.cs" Inherits="MasterPstcl" %>
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPstcl1.master.cs" Inherits="MasterPstcl1" %>
 <%@ Register Src="~/components/topMainStrip.ascx" TagPrefix="masterComponent" TagName="topMainStrip" %>
-<%@ Register Src="~/components/topMiddleLogoStrip.ascx" TagPrefix="masterComponent" TagName="topMiddleLogoStrip" %>
-<%@ Register Src="~/components/topNavBar.ascx" TagPrefix="masterComponent" TagName="topNavBar" %>
+<%@ Register Src="~/components/topMiddleLogoStrip1.ascx" TagPrefix="masterComponent" TagName="topMiddleLogoStrip" %>
+<%@ Register Src="~/components/topNavBar1.ascx" TagPrefix="masterComponent" TagName="topNavBar" %>
 
 <!DOCTYPE html>
 
@@ -17,7 +17,6 @@
     <meta name="keywords"
         content="SLDC, Electricity, Power, Pun, Load Dispatch, Punjab, State Load Despatch Centre, center, state, punjabSLDC" />
     <meta name="expires" content="never" />
-    <meta http-equiv="Cache-control" content="public">
     <meta name="allow-search" content="yes" />
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">

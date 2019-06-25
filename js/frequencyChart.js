@@ -1,19 +1,6 @@
 let freqChartdata = null;
 let freqChart = null;
 let freqChartoptions = null;
-let gaugeOptions = {
-  min: 48,
-  max: 52,
-
-  yellowFrom: 50.5,
-  yellowTo: 52,
-  redFrom: 48,
-  redTo: 49.5,
-  greenFrom: 49.5,
-  greenTo: 50.5,
-  yellowColor: "#DC3912",
-  minorTicks: 5
-};
 
 function makeFreqJsonDataRequest(noOfRecord, data, chart, options) {
   chart.draw(data, options);
@@ -84,7 +71,8 @@ function drawFrequencyChart() {
         fontSize: 12,
         bold: true,
         italic: false
-      }
+      },
+      slantedText: false
     },
     vAxis: {
       title: "Frequency(Hz)",

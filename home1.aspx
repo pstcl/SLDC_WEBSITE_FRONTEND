@@ -1,4 +1,4 @@
-﻿<%@ Page Title="Welcome To PSTCL" Language="C#" MasterPageFile="~/MasterPstcl.master" AutoEventWireup="true" CodeFile="home.aspx.cs" Inherits="_home" %>
+﻿<%@ Page Title="Welcome To PSTCL" Language="C#" MasterPageFile="~/MasterPstcl1.master" AutoEventWireup="true" CodeFile="home1.aspx.cs" Inherits="_home1" %>
 <%@ Register Src="~/components/news.ascx" TagPrefix="custcomponent" TagName="newComponent" %>
 <%@ Register Src="~/components/aboutComponent.ascx" TagPrefix="custcomponent" TagName="aboutComponent" %>
 <%@ Register Src="~/components/liveDataComponent.ascx" TagPrefix="custcomponent" TagName="liveDataComponent" %>

@@ -35,7 +35,7 @@
                                 <input type="hidden" value="0" id="ctl00_fDav" name="ctl00$fDav">
                             </span></li>
                         <li class="select-theme">
-                            <div class="rightborder" id="choosecolor">
+                            <div class="rightborder row" id="choosecolor">
                                 <div class="abcolor" role="note">
                                     <span style="float: left; padding: 0 5px;">Select Theme</span>
                                     <div style="float: left;">
@@ -57,9 +57,8 @@
                                         </a>
                                     </div>
                                 </div>
-                            </div>
+                             </div>
                         </li>
-
 
                     </ul>
 

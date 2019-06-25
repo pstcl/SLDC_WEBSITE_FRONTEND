@@ -73,10 +73,7 @@ function drawOdudChart() {
       },
       count: -1,
       viewWindowMode: "pretty",
-      slantedText: false,
-      textStyle: {
-        fontSize: 7 // or the number you want
-      }
+      slantedText: false
     },
     vAxis: {
       title: "OD / UD (MW)",
