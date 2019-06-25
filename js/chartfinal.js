@@ -8,6 +8,19 @@ let gauge;
 let gaugeData;
 var ip = "www.pstcl.org";
 //var ip = "localhost";
+let gaugeOptions = {
+  min: 48,
+  max: 52,
+
+  yellowFrom: 50.5,
+  yellowTo: 52,
+  redFrom: 48,
+  redTo: 49.5,
+  greenFrom: 49.5,
+  greenTo: 50.5,
+  yellowColor: "#DC3912",
+  minorTicks: 5
+};
 
 function updateDynamicData() {
   var xmlhttp = new XMLHttpRequest();
@@ -41,6 +54,28 @@ function myFunction(arr) {
   }
 }
 
+//  gaugeData.removeRows(0);
+//  gaugeData.setCell(0, 0, jsonData[i].value);
+//  gauge.draw(gaugeData, gaugeOptions);
+
+function updateGaugeData() {
+  var xmlhttp = new XMLHttpRequest();
+  var url = "http://" + ip + ":9091/scadadata/frequency/1";
+
+  xmlhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+      var myArr = JSON.parse(this.responseText);
+      gaugeData.removeRows(0);
+      gaugeData.setCell(0, 0, myArr[0].value);
+      gauge.draw(gaugeData, gaugeOptions);
+    } else if (this.status != 200) {
+      console.log("Ready state" + this.readyState + "  Status:" + this.status);
+    }
+  };
+  xmlhttp.open("GET", url, true);
+  xmlhttp.send();
+}
+
 function drawGauge() {
   gaugeData = new google.visualization.DataTable();
   gaugeData.addColumn("number", "Frequency");
@@ -48,6 +83,9 @@ function drawGauge() {
 
   gauge = new google.visualization.Gauge(document.getElementById("gauge_div"));
   gauge.draw(gaugeData, gaugeOptions);
+
+  updateGaugeData();
+  setInterval(updateGaugeData, 60 * 1000);
 }
 
 function makeScheduleJsonDataRequest(noOfRecord, data, chart, options) {

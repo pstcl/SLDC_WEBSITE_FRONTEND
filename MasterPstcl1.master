@@ -1,7 +1,7 @@
-﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPstcl.master.cs" Inherits="MasterPstcl" %>
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPstcl1.master.cs" Inherits="MasterPstcl1" %>
 <%@ Register Src="~/components/topMainStrip.ascx" TagPrefix="masterComponent" TagName="topMainStrip" %>
-<%@ Register Src="~/components/topMiddleLogoStrip.ascx" TagPrefix="masterComponent" TagName="topMiddleLogoStrip" %>
-<%@ Register Src="~/components/topNavBar.ascx" TagPrefix="masterComponent" TagName="topNavBar" %>
+<%@ Register Src="~/components/topMiddleLogoStrip1.ascx" TagPrefix="masterComponent" TagName="topMiddleLogoStrip" %>
+<%@ Register Src="~/components/topNavBar1.ascx" TagPrefix="masterComponent" TagName="topNavBar" %>
 
 <!DOCTYPE html>
 
