@@ -36,13 +36,13 @@
                         Real Time
                     </a>
                     <div class="dropdown-menu" aria-labelledby="Preview">
-                        <a class="dropdown-item" href="http://www.punjabsldc.org/pungenrealw.asp?pg=pbGenReal">Punjab
+                       <a class="dropdown-item" href="realtimepbGen.aspx">Punjab
                             Own Generation</a>
-                        <a class="dropdown-item" href="http://www.punjabsldc.org/nrrealw.asp?pg=nrGenReal">NR States
+                        <a class="dropdown-item" href="realtimenrstates.aspx">NR States
                             Generation</a>
-                        <a class="dropdown-item" href="http://www.punjabsldc.org/solarppW.asp?pg=solarppW">RES
+                        <a class="dropdown-item" href="realtimeresgen.aspx">RES
                             Generation</a>
-                        <a class="dropdown-item" href="#">Telemetry Issues</a>
+                         <a class="dropdown-item" href="#">Telemetry Issues</a>
                         <a class="dropdown-item" href="#">NRLDC</a>
                         <a class="dropdown-item" href="http://103.7.128.190/wbes/Report/Entitlement">Entitlements</a>
                         <a class="dropdown-item"
