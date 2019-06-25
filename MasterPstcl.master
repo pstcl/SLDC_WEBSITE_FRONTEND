@@ -17,6 +17,7 @@
     <meta name="keywords"
         content="SLDC, Electricity, Power, Pun, Load Dispatch, Punjab, State Load Despatch Centre, center, state, punjabSLDC" />
     <meta name="expires" content="never" />
+    <meta http-equiv="Cache-control" content="public">
     <meta name="allow-search" content="yes" />
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
