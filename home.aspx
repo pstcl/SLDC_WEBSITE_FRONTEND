@@ -67,14 +67,14 @@
     </script>
     <!--Crousel Start-->
     <div class="row">
-      <div class="col-8">
+      <div class="col-sm-8">
         <custcomponent:homeImageScroller runat="server" id="homeImageScroller" Header="User Contact Us Page" />
 
         <custcomponent:chartsHomeContainer runat="server" id="chartsContainer" Header="User Contact Us Page" />
         <custcomponent:aboutComponent runat="server" id="aboutComponent" Header="User Contact Us Page" />
 
       </div>
-      <div class="col-4">
+      <div class="col-sm-4">
         <custcomponent:liveDataComponent runat="server" id="liveDataComponent" Header="User Contact Us Page" />
         <custcomponent:newComponent runat="server" id="newComponent" Header="User Contact Us Page" />
 
