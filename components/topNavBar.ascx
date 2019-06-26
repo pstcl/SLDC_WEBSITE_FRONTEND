@@ -113,13 +113,13 @@
                     Info
                 </a>
                 <div class="dropdown-menu" aria-labelledby="Preview">
-                     <a href="downloads/atc-ttc.pdf">ATC/TTC (Pb.)</a>
-					<a href="downloads/UFRs_Data.xlsx">Healthiness of UFRs (Pb.)</a>
-                    <a href="">Presentations</a>
-                    <a href="image_gallery.aspx">Photo Gallery</a>
-                    <a href="downloads/emergency-contact.pdf">Emergency Contact Nos.</a>
-                    <a href="downloads/restoration-proc.pdf">Restoration Procedure</a>
-                    <a class="dropdown-item" href="downloads.aspx">Downloads</a>
+                     <a  class="dropdown-item"  href="downloads/atc-ttc.pdf">ATC/TTC (Pb.)</a>
+					<a  class="dropdown-item"  href="downloads/UFRs_Data.xlsx">Healthiness of UFRs (Pb.)</a>
+                    <a  class="dropdown-item"  href="">Presentations</a>
+                    <a  class="dropdown-item"  href="image_gallery.aspx">Photo Gallery</a>
+                    <a  class="dropdown-item"  href="downloads/emergency-contact.pdf">Emergency Contact Nos.</a>
+                    <a  class="dropdown-item"  href="downloads/restoration-proc.pdf">Restoration Procedure</a>
+                    <a    class="dropdown-item" href="downloads.aspx">Downloads</a>
                 </div>
             </li>
             <li class="nav-item dropdown">
