@@ -45,7 +45,11 @@
 
     <link rel="stylesheet" id="styleSheetColor" />
 
-
+<script>
+$(document).ready(function(){
+  $('[data-toggle="tooltip"]').tooltip();   
+});
+</script>
 
 
 

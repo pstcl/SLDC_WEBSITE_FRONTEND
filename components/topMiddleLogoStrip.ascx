@@ -1,4 +1,5 @@
 
+
     <div class="container" role="definition">
         <div class="row">
             <div class="col-md-6 col-sm-6  col-xs-12">
@@ -42,14 +43,12 @@
             </div>
             <div class="col-md-6 col-sm-6  col-xs-12">
                 <div class="mhupa_shortnavigator">
-                    <div class="full">
-                        <span class="srchboxcommonsocial">
-                               <a class="dropdown-item" href="http://www.punjabsldc.org/oldsite/">Old Website</a>
-                            
-                        </span>
+                    <div>
+                      
+                              
                     </div>
                     <div class="full" role="search">
-                        <span style="float: left; margin-top: 15px;" class="srchboxcommon">
+                        <span style="float: left;" class="srchboxcommon">
                             <label for="Search"></label>
                             <input name="Search" type="text" id="searchTxt" title="Search" autocomplete="off"
                                 placeholder="Search" style="color: #5E5E5E; width: 150px; border: none;" onkeydown="">
@@ -57,6 +56,8 @@
                             <input type="image" name="ctl00$ImageButton1" id="searchBtn" alt="search" title="search"
                                 src='./images/search.png' />
                         </span>
+                          <a class="btn btn-warning oldLink" data-toggle="tooltip" title="Go to Older Version" href="http://www.punjabsldc.org/oldsite/">Old Website</a>
+                           
                     </div>
                 </div>
             </div>

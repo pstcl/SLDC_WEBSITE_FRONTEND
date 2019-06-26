@@ -539,6 +539,15 @@ a {
   text-decoration: none;
 }
 
+.mhupa_shortnavigator .oldLink {
+  color: #000000;
+  font-size: 13px;
+  font-weight: bolder;
+  margin: 0px 6px 6px 6px;
+  padding: 6px 6px 6px 6px;
+  text-decoration: lawngreen;
+}
+
 a.home {
   background: url("../Images/icon.png") no-repeat scroll -4px 0 rgba(0, 0, 0, 0);
 }
