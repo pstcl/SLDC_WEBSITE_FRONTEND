@@ -16,26 +16,27 @@
             function openWin() {
 
                 var monString = document.mainForm.s_month.value;
-                var pageType = "<%=pgType%>";
-			//var wkString = document.mainForm.s_week.value;  
-			<% if pgType = "bilateral15" then %>
+                var pageType = document.getElementById('reportType');
+                //var wkString = document.mainForm.s_week.value;  
+                if (pgType = "bilateral15") {
                     pageType = "blt15"
-                var pageTypeB = "bilateral15"
-                    <% end if %>
-	 		var reportString = pageType + monString;
-	 		//alert(reportString);
+                    var pageTypeB = "bilateral15"
+                }
+                var reportString = pageType + monString;
+                //alert(reportString);
 
-	 		//var str = "oa/schedules/iex/" + reportString + ".pdf" 
-		 	<% if pgType = "iex15" then %>
-                    window.open("oa/schedules/" + pageType + "/" + reportString + ".zip"); 
-		    <% elseif pgType = "pxil15" then %>
+                //var str = "oa/schedules/iex/" + reportString + ".pdf" 
+                if (pgType = "iex15") {
                     window.open("oa/schedules/" + pageType + "/" + reportString + ".zip");
-		    <% elseif pgType = "bilateral15" then %>
-                    window.open("oa/schedules/" + pageTypeB + "/" + reportString + ".zip");		    
-			<%else %>
+                }
+                else if (pgType = "pxil15") {
+                    window.open("oa/schedules/" + pageType + "/" + reportString + ".zip");
+                } else if (pgType = "bilateral15") {
+                    window.open("oa/schedules/" + pageTypeB + "/" + reportString + ".zip");
+                } else {
                     window.open("oa/schedules/" + pageType + "/" + reportString + ".xlsx");
-			<% end if %>
-		}
+                }
+            }
         </SCRIPT>
 
         <form name="mainForm" action="" method="post">
@@ -44,7 +45,20 @@
             </p>
 
             <table valign="center" cellspacing=8>
+                <tr></tr>
+                <td><select name="reportType" size="1">
+                        <option value="bilateral"> bilateral </option>
+                        <option value="bilateral_tod"> bilateral_tod </option>
+                        <option value="bilateral15"> bilateral15 </option>
+                        <option value="iex"> iex </option>
+                        <option value="iex_tod"> iex_tod </option>
+                        <option value="iex15"> iex15 </option>
+                        <option value="pxil"> pxil </option>
+                        <option value="pxil_tod"> pxil_tod </option>
+                        <option value="pxil15"> pxil15 </option>
 
+                    </select></td>
+                </tr>
                 <tr>
                     <td> <b> Select Month: </b></td>
 
