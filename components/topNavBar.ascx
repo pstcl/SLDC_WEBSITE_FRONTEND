@@ -103,18 +103,10 @@
                 <div class="dropdown-menu" aria-labelledby="Preview">
                     <!-- <a class="dropdown-item" href="http://www.punjabsldc.org/oldsite/index.asp?pg=oa">Information/Formats</a> -->
                     <a class="dropdown-item" href="oa.aspx">Information/Formats</a>
-                    <a class="dropdown-item" href="iex.aspx"">IEX Schedules</a>
-                        <a class=" dropdown-item" href="pxil.aspx">PXIL Schedules</a>
-                    <a class="dropdown-item" href="bilateral.aspx">BILATERAL Schedules</a>
-                    <a class="dropdown-item" href="bill.aspx">STU/SLDC Bill</a>
+                    <a class="dropdown-item" href="oaiex.aspx"">Open Access Schedules</a>
+                        <a class="dropdown-item" href="bill.aspx">STU/SLDC Bill</a>
                     <a class="dropdown-item" href="noc.aspx">Online NOC</a>
-                    <a class="dropdown-item" href="iex_tod.aspx">IEX Schedules (TOD Basis)</a>
-                    <a class="dropdown-item" href="pxil_tod.aspx">PXIL Schedules (TOD Basis)</a>
-                    <a class="dropdown-item" href="bilateral_tod.aspx">BILATERAL Schedules (TOD Basis)</a>
-                    <a class="dropdown-item" href="iex15.aspx">IEX Schedules (15 Mins)</a>
-                    <a class="dropdown-item" href="pxil15.aspx">PXIL Schedules (15 Mins)</a>
-                    <a class="dropdown-item" href="bilateral15.aspx">BILATERAL Schedules (15 Mins)</a>
-                </div>
+             </div>
             </li>
 
             <li class="nav-item dropdown">
