@@ -58,12 +58,7 @@
                 </div>
             </li>
 
-            <div class="collapse navbar-collapse" id="nav-content">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="./image_gallery.aspx">Photo Gallery</a>
-                    </li>
-            </div>
+          
 
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" data-toggle="dropdown" id="Preview" href="#" role="button"
