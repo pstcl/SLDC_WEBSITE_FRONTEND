@@ -67,16 +67,17 @@
         <form>
             <div class="form-group row">
                 <div class="col-sm-3 ">
-                    <label for="type">Select Type</label>
+                    <label for="type">Select Transaction Type</label>
                 </div>
                 <div class="col-sm-6">
                     <div id="type" class="btn-group btn-group-toggle" data-toggle="buttons">
                         <label class="btn btn-primary  active">
                             <input type="radio" name="reportType" id="option1" value="iex" autocomplete="off" checked>
-                            IEX
+                            Collective <br> (IEX)
                         </label>
                         <label class="btn btn-primary">
-                            <input type="radio" name="reportType" id="option2" value="pxil" autocomplete="off"> PXIL
+                            <input type="radio" name="reportType" id="option2" value="pxil" autocomplete="off">
+                            Collective<br>(PXIL)
                         </label>
                         <label class="btn btn-primary">
                             <input type="radio" name="reportType" id="option3" value="bilateral" autocomplete="off">
@@ -96,7 +97,7 @@
 
                         <label class="btn btn-primary active">
                             <input type="radio" name="intervalType" id="option1" value="" autocomplete="off" checked>
-                            Monthly
+                            Daily
                         </label>
                         <label class="btn btn-primary">
                             <input type="radio" name="intervalType" id="option2" value="15" autocomplete="off"> 15 Min
