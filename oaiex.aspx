@@ -59,9 +59,8 @@
 
     <div class="card" style="margin: 50px 50px 50px 50px;">
         <div class="card-header"><span>
-                <h2>
-                    Open Access Schedule
-                </h2>
+
+                Open Access Schedule
             </span>
         </div>
         <form>
