@@ -16,9 +16,12 @@
             function openWin() {
 
                 var monString = document.mainForm.s_month.value;
-                var pageType = document.getElementById('reportType');
+                var selectedType = document.getElementById('reportType');
+                var pageType = selectedType.options[selectedType.selectedIndex].value;
+                // alert(pageType);
+                var pgType = pageType;
                 //var wkString = document.mainForm.s_week.value;  
-                if (pgType = "bilateral15") {
+                if (pgType == "bilateral15") {
                     pageType = "blt15"
                     var pageTypeB = "bilateral15"
                 }
@@ -26,12 +29,12 @@
                 //alert(reportString);
 
                 //var str = "oa/schedules/iex/" + reportString + ".pdf" 
-                if (pgType = "iex15") {
+                if (pgType == "iex15") {
                     window.open("oa/schedules/" + pageType + "/" + reportString + ".zip");
                 }
-                else if (pgType = "pxil15") {
+                else if (pgType == "pxil15") {
                     window.open("oa/schedules/" + pageType + "/" + reportString + ".zip");
-                } else if (pgType = "bilateral15") {
+                } else if (pgType == "bilateral15") {
                     window.open("oa/schedules/" + pageTypeB + "/" + reportString + ".zip");
                 } else {
                     window.open("oa/schedules/" + pageType + "/" + reportString + ".xlsx");
@@ -46,7 +49,7 @@
 
             <table valign="center" cellspacing=8>
                 <tr></tr>
-                <td><select name="reportType" size="1">
+                <td><select id="reportType" size="1">
                         <option value="bilateral"> bilateral </option>
                         <option value="bilateral_tod"> bilateral_tod </option>
                         <option value="bilateral15"> bilateral15 </option>
