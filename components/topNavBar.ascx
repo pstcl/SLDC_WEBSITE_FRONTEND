@@ -59,6 +59,21 @@
             </li>
 
           
+           <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" id="Preview" href="#" role="button"
+                    aria-haspopup="true" aria-expanded="false">
+                    Info
+                </a>
+                <div class="dropdown-menu" aria-labelledby="Preview">
+                     <a  class="dropdown-item"  href="downloads/atc-ttc.pdf">ATC/TTC (Pb.)</a>
+					<a  class="dropdown-item"  href="downloads/UFRs_Data.xlsx">Healthiness of UFRs (Pb.)</a>
+                    <a  class="dropdown-item"  href="">Presentations</a>
+                    <a  class="dropdown-item"  href="image_gallery.aspx">Photo Gallery</a>
+                    <a  class="dropdown-item"  href="downloads/emergency-contact.pdf">Emergency Contact Nos.</a>
+                    <a  class="dropdown-item"  href="downloads/restoration-proc.pdf">Restoration Procedure</a>
+                    <a    class="dropdown-item" href="downloads.aspx">Downloads</a>
+                </div>
+            </li>
 
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" data-toggle="dropdown" id="Preview" href="#" role="button"
@@ -102,21 +117,6 @@
                 </div>
             </li>
 
-           <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" data-toggle="dropdown" id="Preview" href="#" role="button"
-                    aria-haspopup="true" aria-expanded="false">
-                    Info
-                </a>
-                <div class="dropdown-menu" aria-labelledby="Preview">
-                     <a  class="dropdown-item"  href="downloads/atc-ttc.pdf">ATC/TTC (Pb.)</a>
-					<a  class="dropdown-item"  href="downloads/UFRs_Data.xlsx">Healthiness of UFRs (Pb.)</a>
-                    <a  class="dropdown-item"  href="">Presentations</a>
-                    <a  class="dropdown-item"  href="image_gallery.aspx">Photo Gallery</a>
-                    <a  class="dropdown-item"  href="downloads/emergency-contact.pdf">Emergency Contact Nos.</a>
-                    <a  class="dropdown-item"  href="downloads/restoration-proc.pdf">Restoration Procedure</a>
-                    <a    class="dropdown-item" href="downloads.aspx">Downloads</a>
-                </div>
-            </li>
             <li class="nav-item dropdown">
 
                 <a class="nav-link dropdown-toggle" data-toggle="dropdown" id="Preview" href="#" role="button"
@@ -178,7 +178,7 @@
                     <a class="dropdown-item" href="http://www.pspcl.in/">PSPCL</a>
                     <a class="dropdown-item" href="http://www.nrldc.in/">NRLDC</a>
                     <a class="dropdown-item" href="http://www.cercind.gov.in/">CERC</a>
-                    <a class="dropdown-item" href="http://pserc.in/">PSERC</a>
+                    <a class="dropdown-item" href="http://pserc.gov.in/">PSERC</a>
                     <a class="dropdown-item" href="http://www.cea.nic.in/">CEA</a>
                     <a class="dropdown-item" href="http://nrpc.gov.in/">NRPC</a>
                 </div>
