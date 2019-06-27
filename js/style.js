@@ -2,20 +2,20 @@ function changeTheme(attr) {
   var href;
   switch (attr) {
     case "B":
-      href = "./css/colorBlue.css?v=1";
+      href = "./css/colorBlue.css?v=2";
       setCookie("themeColor", attr, 100);
       break;
     case "R":
-      href = "./css/colorRed.css?v=2";
+      href = "./css/colorRed.css?v=3";
       setCookie("themeColor", attr, 100);
       break;
     case "Y":
-      href = "./css/colorYellow.css?v=1";
+      href = "./css/colorYellow.css?v=3";
       setCookie("themeColor", attr, 100);
       break;
 
     default:
-      href = "./css/colorRed.css?v=2";
+      href = "./css/colorRed.css?v=3";
       setCookie("themeColor", "B", 100);
 
       break;

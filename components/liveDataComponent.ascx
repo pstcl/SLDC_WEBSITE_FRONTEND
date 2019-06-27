@@ -62,9 +62,9 @@
               </a>
               </div>
               <div class="card-footer text-muted">
-              <a href="https://punjabscada.org/CorporateUI/logon.do">
+              <a href="https://punjabscada.org/CorporateUI/logon.do" class="a-red">
 
-<span style="background-color: #FFFF00">Alternate Punjab Scada Web Link</span>
+<span >Alternate Punjab Scada Web Link </span>
               </a>
               </div>
 </div>

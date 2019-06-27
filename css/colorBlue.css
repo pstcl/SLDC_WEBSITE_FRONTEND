@@ -10,7 +10,9 @@ body {
 .navbar {
   background-color: #366695;
 }
-
+#footer {
+  background: #366695 !important;
+}
 a {
   color: #f8f9fa;
 }
@@ -19,6 +21,10 @@ a {
   color: #366695;
 }
 .page-sub-header {
+  color: #366695;
+}
+
+.a-red {
   color: #366695;
 }
 
