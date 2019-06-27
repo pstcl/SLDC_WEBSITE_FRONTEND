@@ -51,9 +51,9 @@
     </script>
     <script>
       function drawCharts() {
-        //drawFrequencyChart();
+        drawFrequencyChart();
         drawDrawalChart();
-        drawGauge();
+        //drawGauge();
         //drawScheduleChart();
         drawOdudChart();
       }

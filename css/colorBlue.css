@@ -11,10 +11,13 @@ body {
   background-color: #366695;
 }
 
-#nav-content > .navbar-nav > .nav-item > .nav-link {
-  color: white;
+a {
+  color: #f8f9fa;
 }
 
+.nav-item > a {
+  color: #f8f9fa;
+}
 #nav-content > .navbar-nav > .nav-item > .nav-link:hover {
   color: white;
   background-color: #83b2a0;
