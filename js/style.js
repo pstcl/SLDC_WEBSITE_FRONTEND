@@ -6,7 +6,7 @@ function changeTheme(attr) {
       setCookie("themeColor", attr, 100);
       break;
     case "R":
-      href = "./css/colorRed.css?v=1";
+      href = "./css/colorRed.css?v=2";
       setCookie("themeColor", attr, 100);
       break;
     case "Y":
@@ -15,7 +15,7 @@ function changeTheme(attr) {
       break;
 
     default:
-      href = "./css/colorBlue.css?v=1";
+      href = "./css/colorRed.css?v=2";
       setCookie("themeColor", "B", 100);
 
       break;

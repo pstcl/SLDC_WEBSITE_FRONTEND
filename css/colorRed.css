@@ -11,6 +11,17 @@ body {
   background-color: #ff4d2e;
 }
 
+.page-header > a {
+  color: #ff4d2e;
+}
+.page-sub-header {
+  color: #ff4d2e;
+}
+
+.nav-item > a {
+  color: #f8f9fa;
+}
+
 #nav-content > .navbar-nav > .nav-item > .nav-link {
   color: #fff;
 }
