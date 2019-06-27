@@ -52,11 +52,22 @@
 
 
     <div class="row">
-        <div class="col-6">
+        <div class="col-4">
             <custcomponent:liveDataComponent runat="server" id="liveDataComponent" Header="User Contact Us Page" />
 
         </div>
         <div class="card card5 col-sm-4">
+            <div class="card-header">Frequency
+            </div>
+            <div class="card-body">
+
+                <div class="chart-container" style="position: relative;">
+                    <div id="gauge_div" class="chart"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card card4 col-sm-4">
             <div class="card-header">Frequency
             </div>
             <div class="card-body">

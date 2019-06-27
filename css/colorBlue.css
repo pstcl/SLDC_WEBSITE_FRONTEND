@@ -15,6 +15,13 @@ a {
   color: #f8f9fa;
 }
 
+.page-header > a {
+  color: #366695;
+}
+.page-sub-header {
+  color: #366695;
+}
+
 .nav-item > a {
   color: #f8f9fa;
 }
