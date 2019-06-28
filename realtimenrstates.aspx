@@ -33,7 +33,7 @@
     <div class="container">
         <div class="card">
             <div class="card-header card6">
-                <h3> Punjab Generation - Real Time Data</h3>
+                <h3> Northern Region States - Real Time Data</h3>
                 <span>Updated at <span id="updateTime"></span></span>
             </div>
             <table class="table table-hover table-bordered">
