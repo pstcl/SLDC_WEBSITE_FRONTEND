@@ -1,7 +1,11 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPstcl.master" AutoEventWireup="true" CodeFile="bill.aspx.cs" Inherits="bill" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
+<<<<<<< HEAD
+    <style>
+=======
      <style>
+>>>>>>> bb853993786c276fcc5f25f5cf69c70b4cd27999
         .btn-primary:not(:disabled):not(.disabled).active,
         .btn-primary:not(:disabled):not(.disabled):active,
         .show>.btn-primary.dropdown-toggle {
@@ -28,6 +32,20 @@
             var monthDD = document.getElementById('s_month');
             var monString = monthDD.options[monthDD.selectedIndex].value;
             //var selectedType1 = document.getElementById('reportTypeA');
+<<<<<<< HEAD
+           // var pageType1 = $('input[name=reportType]:checked').val();//selectedType1.options[selectedType1.selectedIndex].value;
+            //var selectedType2 = document.getElementById('reportTypeB');
+           // var pageType2 = $('input[name=intervalType]:checked').val();//selectedType2.options[selectedType2.selectedIndex].value;
+
+           // var pageType = pageType1 + pageType2;
+           // var pgType = pageType1 + pageType2;
+            //var wkString = document.mainForm.s_week.value;  
+            //if (pgType == "bilateral15") {
+                //pageType = "blt15"
+                //var pageTypeB = "bilateral15"
+           // }
+		   pageType="bill"
+=======
             var pageType1 = $('input[name=reportType]:checked').val();//selectedType1.options[selectedType1.selectedIndex].value;
             //var selectedType2 = document.getElementById('reportTypeB');
             var pageType2 = $('input[name=intervalType]:checked').val();//selectedType2.options[selectedType2.selectedIndex].value;
@@ -39,10 +57,16 @@
                 pageType = "blt15"
                 var pageTypeB = "bilateral15"
             }
+>>>>>>> bb853993786c276fcc5f25f5cf69c70b4cd27999
             var reportString = pageType + monString;
             //alert(reportString);
 
             //var str = "oa/schedules/iex/" + reportString + ".pdf" 
+<<<<<<< HEAD
+        
+                window.open("oa/" + pageType + "/" + reportString + ".pdf");
+            
+=======
             if (pgType == "iex15") {
                 window.open("oa/schedules/" + pageType + "/" + reportString + ".zip");
             }
@@ -53,12 +77,20 @@
             } else {
                 window.open("oa/schedules/" + pageType + "/" + reportString + ".xlsx");
             }
+>>>>>>> bb853993786c276fcc5f25f5cf69c70b4cd27999
         }
     </SCRIPT>
 
     <div class="card" style="margin: 50px 50px 50px 50px;">
         <div class="card-header"><span>
 
+<<<<<<< HEAD
+                Month Wise SLDC/STU Bills
+            </span>
+        </div>
+        <form>
+           
+=======
                 Open Access Schedule
             </span>
         </div>
@@ -106,12 +138,27 @@
                     </div>
                 </div>
             </div>
+>>>>>>> bb853993786c276fcc5f25f5cf69c70b4cd27999
             <div class="form-group row">
                 <div class="col-sm-3">
                     <label for="s_month">Select Month</label>
                 </div>
                 <div class="col-sm-6">
                     <select class="form-control" name="s_month" id="s_month" size="1">
+<<<<<<< HEAD
+                       
+                        <option value="May13">May 2013 </option>
+                        <option value="Jun13">Jun 2013 </option>
+                        <option value="Jul13">Jul 2013 </option>
+                        <option value="Aug13">Aug 2013 </option>
+                        <option value="Sep13">Sep 2013 </option>
+                        <option value="Oct13">Oct 2013 </option>						
+                        <option value="Jan14">Jan 2014 </option>
+                        <option value="feb14">feb 2014 </option>
+                        <option value="mar14">mar 2014 </option>
+                        <option value="apr14">apr 2014 </option>
+                        <option value="may14">may 2014 </option>
+=======
                         <option value="May19">May 2019 </option>
                         <option value="Apr19">Apr 2019 </option>
                         <option value="Mar19">Mar 2019 </option>
@@ -174,6 +221,7 @@
                         <option value="Jun14">Jun 2014 </option>
                         <option value="May14">May 2014 </option>
                         <option value="Apr14">Apr 2014 </option>
+>>>>>>> bb853993786c276fcc5f25f5cf69c70b4cd27999
 
                     </select>
                 </div>
@@ -181,7 +229,11 @@
             <div class="form-group row">
 
 
+<<<<<<< HEAD
+                <input type="button" value="View Bill" class=".btn btn-success" onclick="javascript:openWin();"
+=======
                 <input type="button" value="View Schedule" class=".btn btn-success" onclick="javascript: openWin();"
+>>>>>>> bb853993786c276fcc5f25f5cf69c70b4cd27999
                     id=button1 name=button1 />
             </div>
         </form>
