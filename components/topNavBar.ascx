@@ -103,7 +103,7 @@
                 <div class="dropdown-menu" aria-labelledby="Preview">
                     <!-- <a class="dropdown-item" href="http://www.punjabsldc.org/oldsite/index.asp?pg=oa">Information/Formats</a> -->
                     <a class="dropdown-item" href="oa.aspx">Information/Formats</a>
-                    <a class="dropdown-item" href="iex.aspx"">IEX Schedules</a>
+                    <a class="dropdown-item" href="iex.aspx">IEX Schedules</a>
                         <a class=" dropdown-item" href="pxil.aspx">PXIL Schedules</a>
                     <a class="dropdown-item" href="bilateral.aspx">BILATERAL Schedules</a>
                     <a class="dropdown-item" href="bill.aspx">STU/SLDC Bill</a>
