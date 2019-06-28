@@ -20,7 +20,7 @@ instructions provided in <a href="oa/noc/STEP%20BY%20STEP%20PROCESS%20OF%20PUNCH
 	<tr>
 		<td width="27">1</td>
 		<td width="271"><a target="_blank" href="https://sldcgateway.iexindia.com/SLDCClient/Main/Login.aspx"><b>SLDC Login</b></a><p>(For PSTCL/SLDC Office Use)</td>
-		<td>2</td>
+		<td width="27">2</td>
 		<td width="275"><b><a target="_blank" href="https://sldcgateway.iexindia.com/SLDCClient/Main/ClientLogin.aspx">Client Login </b></a>
 		<p>(For Open Access Customers Use)</td>
 	</tr>
