@@ -3,7 +3,7 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
 
     <script type="text/javascript" src="./js/chartfinal.js"></script>
-    <script type="text/javascript" src="./js/nrGenerationRestClient.js"></script>
+    <script type="text/javascript" src="./js/nrGenerationRestClient.js?v=12"></script>
 
 
     <script type="text/javascript">
