@@ -1,7 +1,7 @@
 function updatePbGenData() {
   var xmlhttp = new XMLHttpRequest();
-  //var url = "http://" + ip + ":9091/scadadata/pbGenData2";
-  var url = "http://localhost" + ":9091/scadadata/pbGenData2";
+  var url = "http://" + ip + ":9091/scadadata/pbGenData2";
+  //var url = "http://localhost" + ":9091/scadadata/pbGenData2";
 
   xmlhttp.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {
