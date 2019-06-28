@@ -1,4 +1,4 @@
-<%@ Page Title="Welcome To PSTCL" Language="C#" MasterPageFile="~/MasterPstcl1.master" AutoEventWireup="true"  %>
+<%@ Page Title="Welcome To PSTCL" Language="C#" MasterPageFile="~/MasterPstcl.master" AutoEventWireup="true"  %>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
 
