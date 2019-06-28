@@ -1,6 +1,7 @@
 function updatePbGenData() {
   var xmlhttp = new XMLHttpRequest();
   var url = "http://" + ip + ":9091/scadadata/pbGenData2";
+  //var url = "http://localhost" + ":9091/scadadata/pbGenData2";
 
   xmlhttp.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {
@@ -157,5 +158,16 @@ function insertPbGenData(arr) {
 
   document.getElementById("grossGen").innerHTML = Math.round(
     arr.grossGeneration.value
+  );
+
+  document.getElementById("solarRes").innerHTML = Math.round(
+    arr.resSolar.value
+  );
+  document.getElementById("nonSolarRes").innerHTML = Math.round(
+    arr.resNonSolar.value
+  );
+
+  document.getElementById("resTotal").innerHTML = Math.round(
+    arr.totalResGeneration.value
   );
 }

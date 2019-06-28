@@ -7,7 +7,7 @@
                 <p class="card-text" align="justify">
                   Punjab State Load Dispatch Centre (SLDC), a
                   separate accounting unit of
-                  <a target="_blank" href="http://www.pstcl.org">Punjab State Transmission Corporation
+                  <a target="_blank" class="a-red" href="http://www.pstcl.org">Punjab State Transmission Corporation
                     Limited</a> (PSTCL), is a state of art Computerized
                   Control centre established in August 2002 at
                   Ablowal, Patiala. It ensures integrated

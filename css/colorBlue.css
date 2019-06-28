@@ -10,11 +10,27 @@ body {
 .navbar {
   background-color: #366695;
 }
-
-#nav-content > .navbar-nav > .nav-item > .nav-link {
-  color: white;
+#footer {
+  background: #366695 !important;
+}
+a {
+  color: #f8f9fa;
 }
 
+.page-header > a {
+  color: #366695;
+}
+.page-sub-header {
+  color: #366695;
+}
+
+.a-red {
+  color: #366695;
+}
+
+.nav-item > a {
+  color: #f8f9fa;
+}
 #nav-content > .navbar-nav > .nav-item > .nav-link:hover {
   color: white;
   background-color: #83b2a0;

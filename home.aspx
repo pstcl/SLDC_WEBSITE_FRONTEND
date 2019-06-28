@@ -10,18 +10,18 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
   <div>
     <script src="https://www.gstatic.com/charts/loader.js"></script>
-    <script type="text/javascript" src="./js/chartfinal.js"></script>
-    <script type="text/javascript" src="./js/odudChart.js"></script>
-    <script type="text/javascript" src="./js/frequencyChart.js"></script>
-    <script type="text/javascript" src="./js/drawalChart.js"></script>
+    <script type="text/javascript" src="./js/chartfinal.js?v=1"></script>
+    <script type="text/javascript" src="./js/odudChart.js?v=1"></script>
+    <script type="text/javascript" src="./js/frequencyChart.js?v=1"></script>
+    <script type="text/javascript" src="./js/drawalChart.js?v=1"></script>
 
 
-    <link rel="stylesheet" href="./css/chartfinal.css">
+    <link rel="stylesheet" href="./css/chartfinal.css?v=1">
     </link>
 
-    <link rel="stylesheet" href="./css/frontpage3.css">
+    <link rel="stylesheet" href="./css/frontpage3.css?v=1">
     </link>
-    <link rel="stylesheet" href="./css/bottom_div_cards.css">
+    <link rel="stylesheet" href="./css/bottom_div_cards.css?v=1">
     </link>
 
     <script type="text/javascript">
@@ -51,9 +51,9 @@
     </script>
     <script>
       function drawCharts() {
-        //drawFrequencyChart();
+        drawFrequencyChart();
         drawDrawalChart();
-        drawGauge();
+        //drawGauge();
         //drawScheduleChart();
         drawOdudChart();
       }

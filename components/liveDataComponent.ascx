@@ -60,5 +60,11 @@
 
                 <span id="divread1">more..</span>
               </a>
-            </div>
+              </div>
+              <div class="card-footer text-muted">
+              <a href="https://punjabscada.org/CorporateUI/logon.do" class="a-red">
+
+<span >Alternate Punjab Scada Web Link </span>
+              </a>
+              </div>
 </div>

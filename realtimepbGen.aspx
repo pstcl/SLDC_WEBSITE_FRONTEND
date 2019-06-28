@@ -1,9 +1,9 @@
-<%@ Page Title="Welcome To PSTCL" Language="C#" MasterPageFile="~/MasterPstcl1.master" AutoEventWireup="true"  %>
+<%@ Page Title="Welcome To PSTCL" Language="C#" MasterPageFile="~/MasterPstcl.master" AutoEventWireup="true"  %>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
 
     <script type="text/javascript" src="./js/chartfinal.js"></script>
-    <script type="text/javascript" src="./js/pubjabGenerationRestClient.js"></script>
+    <script type="text/javascript" src="./js/pubjabGenerationRestClient.js?v=2"></script>
 
 
     <script type="text/javascript">
@@ -23,6 +23,7 @@
         th,
         td {
             text-align: center;
+            font-size: 15px;
         }
 
         .table td {
@@ -30,16 +31,13 @@
         }
     </style>
     <div class="card">
+        <div class="card-header card6">
+            <h3> Punjab Generation - Real Time Data</h3>
+            <span>Updated at <span id="updateTime"></span></span>
+        </div>
         <table class="table table-hover table-bordered">
             <thead>
-                <tr>
 
-                    <th colspan="12">
-                        <h3> Punjab Generation - Real Time Data</h3>
-                        <span>Updated at <span id="updateTime"></span></span>
-                    </th>
-
-                </tr>
                 <tr>
 
                     <th scope="col">Unit Number</th>
@@ -268,13 +266,15 @@
                     <th scope="col" colspan="3">Total Ipps = <span id="totalIpps"></span>
                     </th>
                 </tr>
-                <!--    <tr>
-                <td colspan="12">Total RES Generation = <span id="resTotal"></span>, (Solar = <span id="solarRes"></span>),
-                    (NON-Solar = <span id="nonSolarRes"></span>)</td>
-            </tr>-->
                 <tr>
-                    <td colspan="12">Gross Generation = <span id="grossGen"></span>
-                    </td>
+                    <th colspan="12">Total RES Generation = <span id="resTotal"></span>, (Solar = <span
+                            id="solarRes"></span>),
+                        (NON-Solar = <span id="nonSolarRes"></span>)</th>
+                </tr>
+                <tr>
+                    <th colspan="12">
+                        Gross Generation = <span id="grossGen"></span>
+                    </th>
                 </tr>
 
 

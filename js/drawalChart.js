@@ -68,10 +68,10 @@ function drawDrawalChart() {
         fontName: "arial"
       },
       viewWindow: {
-        min: 4000,
-        max: 6000
+        min: 3000,
+        max: 7000
       },
-      ticks: [4000, 5000, 6000]
+      ticks: [3000, 4000, 5000, 6000, 7000]
     }
   };
   drawalChart.draw(drawalChartdata, drawalChartoptions);

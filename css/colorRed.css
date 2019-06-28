@@ -11,6 +11,21 @@ body {
   background-color: #ff4d2e;
 }
 
+#footer {
+  background: #ff4d2e !important;
+}
+
+.page-header > a {
+  color: #ff4d2e;
+}
+.page-sub-header {
+  color: #ff4d2e;
+}
+
+.nav-item > a {
+  color: #f8f9fa;
+}
+
 #nav-content > .navbar-nav > .nav-item > .nav-link {
   color: #fff;
 }
@@ -42,6 +57,10 @@ body {
 a {
   color: #fff;
 }
+.a-red {
+  color: #fd4444;
+}
+
 .headerlft {
   color: #fff;
 }
