@@ -104,6 +104,9 @@
 							<td width="70">
 							<font face="Arial" size="2">POA-0104</font></td>
 							<td width="70">
+							<font face="Arial" size="2">WOA-06-11</font></td>
+
+							<td width="70">
 							&nbsp;</td>
 							<td width="70">
 							&nbsp;</td>

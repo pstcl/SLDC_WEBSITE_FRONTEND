@@ -99,6 +99,9 @@
                 <a class="dropdown-item" href="oaiex.aspx"">Open Access Schedules</a>
                         <a class=" dropdown-item" href="bill.aspx">STU/SLDC Bill</a>
                 <a class="dropdown-item" href="noc.aspx">Online NOC</a>
+                
+                <a class="dropdown-item" href=".\oaea.aspx">UI Energy Account</a>
+
             </div>
         </li>
 
