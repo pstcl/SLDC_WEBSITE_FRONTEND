@@ -51,11 +51,11 @@
 
 						<td>
 							<select name="s_month" size="1">
-								<option value="Jun19">Jun 2019 </option>
-								<option value="May19">May 2019 </option>
-								<option value="Apr19">Apr 2019 </option>
-								<option value="Mar19">Mar 2019 </option>
-								<option value="Feb19">Feb 2019 </option>
+								<option value="0619">Jun 2019 </option>
+								<option value="0519">May 2019 </option>
+								<option value="0419">Apr 2019 </option>
+								<option value="0319">Mar 2019 </option>
+								<option value="0219">Feb 2019 </option>
 							</select>
 						</td>
 
