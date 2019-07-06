@@ -203,7 +203,7 @@ function drawScheduleChart() {
 }
 function updateScheduleChartData() {
   makeScheduleJsonDataRequest(
-    15,
+    45,
     scheduleChartdata,
     scheduleChart,
     scheduleChartoptions

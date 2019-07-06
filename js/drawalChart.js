@@ -81,7 +81,7 @@ function drawDrawalChart() {
 function updateDrawalChartData() {
   makeDrawalJsonDataRequest(
     "http://" + ip + ":9091/scadadata/drawal/",
-    15,
+    45,
     drawalChartdata,
     drawalChart,
     drawalChartoptions

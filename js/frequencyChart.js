@@ -97,7 +97,7 @@ function drawFrequencyChart() {
   setInterval(updateFrequencyChartData, 10 * 1000);
 }
 function updateFrequencyChartData() {
-  makeFreqJsonDataRequest(15, freqChartdata, freqChart, freqChartoptions);
+  makeFreqJsonDataRequest(45, freqChartdata, freqChart, freqChartoptions);
   freqChart.draw(freqChartdata, freqChartoptions);
   //makeFreqJsonDataRequest( 15,
   //	freqChartdata, freqChart1, freqChartoptions);

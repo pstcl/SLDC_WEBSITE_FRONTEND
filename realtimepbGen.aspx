@@ -10,7 +10,7 @@
 
         $(document).ready(function () {
             updatePbGenData();
-            setInterval(updatePbGenData, 60000);
+            setInterval(updatePbGenData, 30000);
 
         });
 

@@ -10,7 +10,7 @@
 
         $(document).ready(function () {
             updateNRGenData();
-            setInterval(updateNRGenData, 60000);
+            setInterval(updateNRGenData, 30000);
 
         });
 
@@ -40,10 +40,12 @@
 
                 <tr>
                     <th></th>
-                    <th scope="row">Schedule</th>
                     <th>Drawal</th>
-                    <th>Load</th>
+                    
+                    <th scope="row">Schedule</th>
                     <th>OD/UD</th>
+                    <th>Load</th>
+                    
                 </tr>
 
                 <tr>
@@ -52,14 +54,16 @@
                         <div id="pun_drwl"></div>
                     </td>
                     <td>
-                        <div id="pun_load"></div>
+                        <div id="pun_sch"></div>
                     </td>
+                    
                     <td>
                         <div id="pun_odud"></div>
                     </td>
                     <td>
-                        <div id="pun_sch"></div>
+                        <div id="pun_load"></div>
                     </td>
+                    
                 </tr>
                 <tr>
                     <th>CHD</th>
@@ -67,14 +71,16 @@
                         <div id="chd_drwl"></div>
                     </td>
                     <td>
-                        <div id="chd_load"></div>
+                        <div id="chd_sch"></div>
                     </td>
                     <td>
                         <div id="chd_odud"></div>
                     </td>
+ 
                     <td>
-                        <div id="chd_sch"></div>
+                        <div id="chd_load"></div>
                     </td>
+                    
                 </tr>
                 <tr>
                     <th>DVB</th>
@@ -82,14 +88,16 @@
                         <div id="delhi_drwl"></div>
                     </td>
                     <td>
-                        <div id="delhi_load"></div>
+                        <div id="delhi_sch"></div>
                     </td>
+ 
                     <td>
                         <div id="delhi_odud"></div>
                     </td>
                     <td>
-                        <div id="delhi_sch"></div>
+                        <div id="delhi_load"></div>
                     </td>
+ 
                 </tr>
                 <tr>
                     <th>HVPNL</th>
@@ -97,14 +105,16 @@
                         <div id="haryana_drwl"></div>
                     </td>
                     <td>
-                        <div id="haryana_load"></div>
+                        <div id="haryana_sch"></div>
                     </td>
+ 
                     <td>
                         <div id="haryana_odud"></div>
                     </td>
                     <td>
-                        <div id="haryana_sch"></div>
+                        <div id="haryana_load"></div>
                     </td>
+ 
                 </tr>
                 <tr>
                     <th>HPSEB</th>
@@ -112,14 +122,16 @@
                         <div id="hp_drwl"></div>
                     </td>
                     <td>
-                        <div id="hp_load"></div>
+                        <div id="hp_sch"></div>
                     </td>
+ 
                     <td>
                         <div id="hp_odud"></div>
                     </td>
                     <td>
-                        <div id="hp_sch"></div>
+                        <div id="hp_load"></div>
                     </td>
+ 
                 </tr>
                 <tr>
                     <th>JKSEB</th>
@@ -127,14 +139,16 @@
                         <div id="jk_drwl"></div>
                     </td>
                     <td>
-                        <div id="jk_load"></div>
+                        <div id="jk_sch"></div>
                     </td>
+ 
                     <td>
                         <div id="jk_odud"></div>
                     </td>
                     <td>
-                        <div id="jk_sch"></div>
+                        <div id="jk_load"></div>
                     </td>
+ 
                 </tr>
 
                 <tr>
@@ -143,14 +157,16 @@
                         <div id="raj_drwl"></div>
                     </td>
                     <td>
-                        <div id="raj_load"></div>
+                        <div id="raj_sch"></div>
                     </td>
+ 
                     <td>
                         <div id="raj_odud"></div>
                     </td>
                     <td>
-                        <div id="raj_sch"></div>
+                        <div id="raj_load"></div>
                     </td>
+ 
                 </tr>
                 <tr>
                     <th>UTSEB</th>
@@ -158,14 +174,16 @@
                         <div id="uk_drwl"></div>
                     </td>
                     <td>
-                        <div id="uk_load"></div>
+                        <div id="uk_sch"></div>
                     </td>
+ 
                     <td>
                         <div id="uk_odud"></div>
                     </td>
                     <td>
-                        <div id="uk_sch"></div>
+                        <div id="uk_load"></div>
                     </td>
+ 
                 </tr>
                 <tr>
                     <th>UPPCL</th>
@@ -173,14 +191,16 @@
                         <div id="up_drwl"></div>
                     </td>
                     <td>
-                        <div id="up_load"></div>
+                        <div id="up_sch"></div>
                     </td>
+ 
                     <td>
                         <div id="up_odud"></div>
                     </td>
                     <td>
-                        <div id="up_sch"></div>
+                        <div id="up_load"></div>
                     </td>
+ 
                 </tr>
 
 

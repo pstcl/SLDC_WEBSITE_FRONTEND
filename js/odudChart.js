@@ -125,7 +125,7 @@ function drawOdudChart() {
   setInterval(updateodudChartData, 10 * 1000);
 }
 function updateodudChartData() {
-  makeodudJsonDataRequest(15, odudChartdata, odudChart, odudChartoptions);
+  makeodudJsonDataRequest(45, odudChartdata, odudChart, odudChartoptions);
   odudChart.draw(odudChartdata, odudChartoptions);
   //makeodudJsonDataRequest( 15,
   //	odudChartdata, odudChart1, odudChartoptions);
