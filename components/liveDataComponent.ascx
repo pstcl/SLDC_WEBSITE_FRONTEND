@@ -58,7 +58,7 @@
               <a href="detailedCharts.aspx" style="text-decoration: none;" >
 
 
-                <span id="divread1">more..</span>
+                <span id="divread1" class="text-theme-color">more..</span>
               </a>
               </div>
               <div class="card-footer text-muted">

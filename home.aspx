@@ -8,7 +8,6 @@
 <%@ Register Src="~/components/chartsHomeContainer.ascx" TagPrefix="custcomponent" TagName="chartsHomeContainer" %>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
-  <div>
     <script src="https://www.gstatic.com/charts/loader.js"></script>
     <script type="text/javascript" src="./js/chartfinal.js?v=1"></script>
     <script type="text/javascript" src="./js/odudChart.js?v=1"></script>
@@ -67,26 +66,34 @@
     </script>
     <!--Crousel Start-->
     <div class="row">
-      <div class="col-sm-8">
-        <custcomponent:homeImageScroller runat="server" id="homeImageScroller" Header="User Contact Us Page" />
+      
+      <div class="col-md-4 order-xs-1 order-sm-1 order-lg-2">
+        <custcomponent:liveDataComponent runat="server" id="liveDataComponent" Header="User Contact Us Page" />
+                <div class="d-none d-md-block">
+                    <!--for original large screen-->
+        <custcomponent:newComponent runat="server" id="newComponent" Header="User Contact Us Page" />
+</div>
 
+      </div>
+      <div class="col-md-8 order-xs-2 order-sm-2 order-lg-1">
+        <div class="d-none d-lg-block">
+        <custcomponent:homeImageScroller  runat="server" id="homeImageScroller" Header="User Contact Us Page" />
+</div>
         <custcomponent:chartsHomeContainer runat="server" id="chartsContainer" Header="User Contact Us Page" />
         <custcomponent:aboutComponent runat="server" id="aboutComponent" Header="User Contact Us Page" />
 
       </div>
-      <div class="col-sm-4">
-        <custcomponent:liveDataComponent runat="server" id="liveDataComponent" Header="User Contact Us Page" />
-        <custcomponent:newComponent runat="server" id="newComponent" Header="User Contact Us Page" />
-
-      </div>
     </div>
 
-  </div>
+<div class="d-md-none">
+  <!--for reordered small screen-->
+          <custcomponent:newComponent runat="server" id="newsComponent" Header="User Contact Us Page" />
+</div>
 
-
-
+<div class="d-none d-lg-block">
+        
   <custcomponent:linksRibbon runat="server" id="linksRibbon" Header="User Contact Us Page" />
-
+</div>
 
 
 

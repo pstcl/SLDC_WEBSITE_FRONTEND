@@ -1,16 +1,18 @@
+
 <!--navbar-->
-<nav class="navbar navbar-expand-sm">
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-content"
-        aria-controls="nav-content" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon navbar-dark"></span>
-    </button>
-
-    <!-- Brand -->
-
-
-    <!-- Links -->
-    <!-- <div class="collapse navbar-collapse" id="nav-content">-->
-    <ul class="navbar-nav">
+    <nav class="navbar navbar-expand-md">
+<div class="d-md-none background-white">
+     <a href='/' title="PSTCL LOGO" class="background-white">
+                        <img src='images/logo/pstcllogo.png' id="usrPnlLogo" alt="PSTCL" title="PSTCL" height="70"
+                            width="80" /></a>
+  </div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            
+                <ul class="navbar-nav">
         <li class="nav-item">
             <a class="nav-link" href="./home.aspx">Home</a>
         </li>
@@ -183,6 +185,6 @@
         </li>
 
     </ul>
-    <!--</div>-->
+    </div>
 </nav>
 <!--NAVBAR END-->

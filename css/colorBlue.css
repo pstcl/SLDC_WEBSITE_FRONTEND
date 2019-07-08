@@ -1,6 +1,17 @@
 body {
   background-color: #f7f8f9;
 }
+
+.background-black {
+  background-color: #002040;
+}
+.background-white {
+  background-color: #f5f8fa;
+}
+
+.text-theme-color > a {
+  color: #2873bd;
+}
 .topMainstrip {
   background-color: #2873bd;
 }
