@@ -15,6 +15,7 @@
     <script type="text/javascript" src="./js/drawalChart.js?v=1"></script>
 
 
+
     <link rel="stylesheet" href="./css/chartfinal.css?v=1">
     </link>
 
@@ -40,14 +41,7 @@
       });
 
     </script>
-    <script type="text/javascript">
-
-      $(document).ready(function () {
-        updateDynamicData();
-        setInterval(updateDynamicData, 60000);
-      });
-
-    </script>
+    
     <script>
       function drawCharts() {
         drawFrequencyChart();

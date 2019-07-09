@@ -5,19 +5,37 @@ body {
 .background-black {
   background-color: #002040;
 }
+
 .background-white {
   background-color: #f5f8fa;
+}
+
+.badge-danger {
+  color: #fff;
+  background-color: #f70909;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(238, 24, 24, 1)' stroke-width='5' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.navbar-toggler {
+  border-color: rgb(238, 24, 24);
+  background-color: #f7f8f9;
 }
 
 .text-theme-color {
   color: #ff4d2e;
 }
+
 .topMainstrip {
   background-color: #ff4d2e;
 }
+
 .topstrip {
   background: #f36513;
 }
+
 .navbar {
   background-color: #ff4d2e;
 }
@@ -26,22 +44,23 @@ body {
   background: #ff4d2e !important;
 }
 
-.page-header > a {
+.page-header>a {
   color: #ff4d2e;
 }
+
 .page-sub-header {
   color: #ff4d2e;
 }
 
-.nav-item > a {
+.nav-item>a {
   color: #f8f9fa;
 }
 
-#nav-content > .navbar-nav > .nav-item > .nav-link {
+#nav-content>.navbar-nav>.nav-item>.nav-link {
   color: #fff;
 }
 
-#nav-content > .navbar-nav > .nav-item > .nav-link:hover {
+#nav-content>.navbar-nav>.nav-item>.nav-link:hover {
   color: #fff;
   background-color: #fd4444;
 }
@@ -50,13 +69,16 @@ body {
   border-color: white;
   background-color: white;
 }
+
 .text {
   color: #fff;
 }
+
 .hdtitle {
   background: #d3fd17;
   color: #fff;
 }
+
 .defaultcolor {
   background: none repeat scroll 0 0 #fff;
   border: 1px solid #fff;
@@ -65,9 +87,11 @@ body {
 .logotext {
   color: #42413c;
 }
+
 a {
   color: #fff;
 }
+
 .a-red {
   color: #fd4444;
 }
@@ -83,12 +107,15 @@ a {
 .rightborder a {
   color: #fff;
 }
+
 .topstripbar {
   background: #f6fa1e;
 }
+
 .topMainstrip-one {
   color: #fff;
 }
+
 .topMainstrpleft {
   color: #fff;
 }

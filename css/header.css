@@ -14,6 +14,7 @@
 .midstrip {
   margin-left: 5px;
 }
+
 *,
 html {
   margin: 0;
@@ -24,10 +25,12 @@ html {
   font-optical-sizing: inherit;
   font-weight: bold;
 }
-.page-header > a {
+
+.page-header>a {
   margin-top: 15px;
   margin-left: 10px;
 }
+
 .page-sub-header {
   font-size: 20px;
   margin-left: 13px !important;
@@ -179,6 +182,7 @@ a.arhives_txt:hover {
   color: #fff;
   transition-duration: 0.6s;
 }
+
 .printpage:hover {
   color: #000;
   text-decoration: none;
@@ -192,6 +196,7 @@ a.arhives_txt:hover {
   color: #fff;
   transition-duration: 0.6s;
 }
+
 .backpage:hover {
   color: #000;
   text-decoration: none;
@@ -304,7 +309,8 @@ a.arhives_txt:hover {
 .body_bg_wrp {
   margin: 0;
   width: 100%;
-  margin-top: 10px; /*background:url(../Images/bg.png) repeat-y;*/
+  margin-top: 10px;
+  /*background:url(../Images/bg.png) repeat-y;*/
   float: left;
 }
 
@@ -423,14 +429,17 @@ a.arhives_txt:hover {
   background-color: transparent !important;
   border: none !important;
 }
+
 .logotext table th img {
   vertical-align: bottom;
 }
+
 .logotext table th,
 .logotext table td {
   margin: 0;
   padding: 0;
 }
+
 a {
   text-decoration: none;
 }
@@ -484,8 +493,7 @@ a {
   margin-right: 5px;
 }
 
-.ptqcss ul li {
-}
+.ptqcss ul li {}
 
 .rightborder a {
   text-decoration: none;
@@ -574,13 +582,11 @@ a.home {
 }
 
 a.faq {
-  background: url("../Images/icon.png") no-repeat scroll -4px -26px
-    rgba(0, 0, 0, 0);
+  background: url("../Images/icon.png") no-repeat scroll -4px -26px rgba(0, 0, 0, 0);
 }
 
 a.sitemap {
-  background: url("../Images/icon.png") no-repeat scroll -4px -52px
-    rgba(0, 0, 0, 0);
+  background: url("../Images/icon.png") no-repeat scroll -4px -52px rgba(0, 0, 0, 0);
 }
 
 .srchboxcommon input {
@@ -635,6 +641,7 @@ a.sitemap {
   width: 100%;
   min-height: 30px;
 }
+
 .topMainstrip-one {
   margin-left: 180px;
   color: #fff;
@@ -644,33 +651,41 @@ a.sitemap {
   font-size: 12px;
   padding-top: 8px;
 }
+
 .topMainstrprgt {
   padding-top: 4px;
   font-size: 12px;
 }
+
 .topMainScreen {
   width: 43px;
   float: left;
 }
+
 .topMainskip {
   float: left;
 }
+
 .topMainFont {
   float: left;
 }
+
 .topMainnorm {
   float: left;
   margin-left: 8px;
 }
+
 .topMainblk {
   float: left;
   margin-left: 1px;
   margin-right: 2px;
 }
+
 .topMaintheme {
   float: left;
   padding: 0 5px;
 }
+
 .topMainhindi {
   float: left;
   margin-top: -3px;
@@ -695,4 +710,29 @@ ul {
 .cf:after,
 .container:after {
   clear: both;
+}
+
+.table td,
+.table th {
+  padding: 0rem;
+  vertical-align: top;
+  border-top: 1px solid #dee2e6;
+}
+
+.yscroll {
+  overflow-y: scroll;
+}
+
+.badge {
+  display: inline-block;
+  padding: .25em .4em;
+  margin-left: 15px;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: .25rem;
+  transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
 }

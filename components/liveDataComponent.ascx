@@ -1,4 +1,12 @@
+<script type="text/javascript" src="./js/dynamicData.js?v=1"></script>
+<script type="text/javascript">
 
+      $(document).ready(function () {
+        updateDynamicData();
+        setInterval(updateDynamicData, 60000);
+      });
+
+    </script>
 <div class="card" >
         <div class="card-header">Power Status at&nbsp;<span id="updateDate"></span>&nbsp;</div>
 

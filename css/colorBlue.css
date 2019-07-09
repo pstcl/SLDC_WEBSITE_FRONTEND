@@ -5,32 +5,59 @@ body {
 .background-black {
   background-color: #002040;
 }
+
 .background-white {
   background-color: #f5f8fa;
 }
 
-.text-theme-color > a {
+.barmenucollapse {
+  font-size: 12px;
+  color: red;
+}
+
+.badge-danger {
+  color: #fff;
+  background-color: #451bdd;
+}
+
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(86, 37, 151, 1)' stroke-width='5' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.navbar-toggler {
+  border-color: rgb(86, 37, 151);
+  background-color: #f7f8f9;
+}
+
+.text-theme-color>a {
   color: #2873bd;
 }
+
 .topMainstrip {
   background-color: #2873bd;
 }
+
 .topstrip {
   background: #2873bd;
 }
+
 .navbar {
   background-color: #366695;
 }
+
 #footer {
   background: #366695 !important;
 }
+
 a {
   color: #f8f9fa;
 }
 
-.page-header > a {
+.page-header>a {
   color: #366695;
 }
+
 .page-sub-header {
   color: #366695;
 }
@@ -39,25 +66,24 @@ a {
   color: #366695;
 }
 
-.nav-item > a {
+.nav-item>a {
   color: #f8f9fa;
 }
-#nav-content > .navbar-nav > .nav-item > .nav-link:hover {
+
+#nav-content>.navbar-nav>.nav-item>.nav-link:hover {
   color: white;
   background-color: #83b2a0;
 }
 
-.navbar-toggler {
-  border-color: white;
-  background-color: white;
-}
 .text {
   color: #fff;
 }
+
 .hdtitle {
   background: #2286c2;
   color: #fff;
 }
+
 .defaultcolor {
   background: none repeat scroll 0 0 #fff;
   border: 1px solid #fff;
@@ -66,9 +92,11 @@ a {
 .logotext {
   color: #42413c;
 }
+
 a {
   color: #002040;
 }
+
 .headerlft {
   color: #fff;
 }
@@ -80,15 +108,19 @@ a {
 .rightborder a {
   color: #fff;
 }
+
 .topstripbar {
   background: #0078c9;
 }
+
 .topMainstrip-one {
   color: #fff;
 }
+
 .topMainstrpleft {
   color: #fff;
 }
+
 .card-header {
   background-color: #aab1bf;
   color: #fff;

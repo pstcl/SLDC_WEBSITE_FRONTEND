@@ -1,4 +1,5 @@
 <%@ Page Title="Welcome To PSTCL" Language="C#" MasterPageFile="~/MasterPstcl.master" AutoEventWireup="true"  %>
+<%@ Register Src="~/components/badgesDynamicData.ascx" TagPrefix="custcomponent" TagName="liveDataComponent" %>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
 
@@ -31,10 +32,14 @@
         }
     </style>
     <div class="card table-responsive">
+  <custcomponent:liveDataComponent runat="server" id="liveDataComponent" Header="User Contact Us Page" />
+        
         <div class="card-header card6">
-            <h3> Punjab Generation - Real Time Data</h3>
-            <span>Updated at <span id="updateTime"></span></span>
+           
+            <h3> Punjab Generation - Real Time Data<h5><span>Updated at <span id="updateTime"></span></span></h5></h3>
+            
         </div>
+<div class="card-body yscroll">
         <table class="table table-hover table-bordered">
             <thead>
 
@@ -280,5 +285,6 @@
 
             </tbody>
         </table>
+    </div>
     </div>
 </asp:Content>

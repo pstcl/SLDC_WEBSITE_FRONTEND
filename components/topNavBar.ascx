@@ -6,11 +6,16 @@
                         <img src='images/logo/pstcllogo.png' id="usrPnlLogo" alt="PSTCL" title="PSTCL" height="70"
                             width="80" /></a>
   </div>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar1">
+          <span class="navbar-toggler-icon navbar-dark"></span>
+        
         </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+        <!-- Brand -->
+
+
+        <!-- Links -->
+        <div class="collapse navbar-collapse" id="collapsibleNavbar1">
             
                 <ul class="navbar-nav">
         <li class="nav-item">

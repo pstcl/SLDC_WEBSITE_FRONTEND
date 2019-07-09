@@ -2,7 +2,7 @@ function changeTheme(attr) {
   var href;
   switch (attr) {
     case "B":
-      href = "./css/colorBlue.css?v=4";
+      href = "./css/colorBlue.css?v=5";
       setCookie("themeColor", attr, 100);
       break;
     case "R":
