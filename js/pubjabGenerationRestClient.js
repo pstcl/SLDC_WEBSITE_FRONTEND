@@ -20,7 +20,7 @@ function insertPbGenData(arr) {
     arr.thermalGGSSTPRopar3.value != "" &&
     arr.thermalGGSSTPRopar3.value != null
   ) {
-    document.getElementsByClassName("updateTime").innerHTML =
+    document.getElementById("updateTime").innerHTML =
       arr.thermalGGSSTPRopar3.timeS;
   }
 
