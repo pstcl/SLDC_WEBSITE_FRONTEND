@@ -6,9 +6,9 @@ TagPrefix="custcomponent" TagName="liveDataComponent" %>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1"
 	Runat="Server">
 
-	<script type="text/javascript" src="./js/chartfinal.js"></script>
+	<script type="text/javascript" src="./js/chartfinal.js.js?v=10071007"></script>
 	<script type="text/javascript"
-		src="./js/pubjabGenerationRestClient.js?v=2"></script>
+		src="./js/pubjabGenerationRestClient.js?v=1007100710072"></script>
 
 
 	<script type="text/javascript">
