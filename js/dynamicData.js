@@ -1,4 +1,5 @@
 function updateDynamicData() {
+  updatePbGrossData();
   var xmlhttp = new XMLHttpRequest();
   var url = "http://" + ip + ":9091/scadadata/dynamicdata";
 
@@ -14,6 +15,34 @@ function updateDynamicData() {
   xmlhttp.send();
 }
 
+function updatePbGrossData() {
+  var xmlhttp = new XMLHttpRequest();
+  var url = "http://" + ip + ":9091/scadadata/pbGenData2";
+  //var url = "http://localhost" + ":9091/scadadata/pbGenData2";
+
+  xmlhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+      var myArr = JSON.parse(this.responseText);
+      insertPbGrossData(myArr);
+    } else if (this.status != 200) {
+      console.log("Ready state" + this.readyState + "  Status:" + this.status);
+    }
+  };
+  xmlhttp.open("GET", url, true);
+  xmlhttp.send();
+}
+
+function insertPbGrossData(arr) {
+  if (arr == null) {
+    updatePbGrossData();
+  } else if (arr.grossGeneration == null) {
+    updatePbGrossData();
+  } else {
+    document.getElementById("grossGen").innerHTML = Math.round(
+      arr.grossGeneration.value
+    );
+  }
+}
 function myFunction(arr) {
   if (arr.updateDate != "" && arr.updateDate != null) {
     document.getElementById("updateDate").innerHTML = arr.updateDate;
