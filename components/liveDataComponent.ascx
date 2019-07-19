@@ -26,7 +26,7 @@
 -->
                 <div class="row">
                         <div class="col-8">
-<span class="ddLabel">                                Frequency (Hz):
+<span class="ddLabel">                                Frequency:
       </span>                  </div>
                         <div id="frequencyHz" class="col-4 ddValue">
                         </div>
@@ -34,26 +34,26 @@
 
                 <div class="row">
                         <div class="col-8">
-            <span class="ddLabel">                    Drawal (MW)</div>
+            <span class="ddLabel">                    Drawal </div>
                  </span>       <div id="drawalMW" class="col-4 ddValue">
                         </div>
                 </div>
                 <div class="row">
                         <div class="col-8">
-                       <span class="ddLabel">         Schedule (MW)</div>
+                       <span class="ddLabel">         Schedule </div>
                        </span> <div id="scheduleMW" class="col-4 ddValue">
                         </div>
                 </div>
                 <div class="row">
                         <div class="col-8">
-                             <span class="ddLabel">   OD(+)/UD(-) (MW)</div>
+                             <span class="ddLabel">   OD(+)/UD(-) </div>
                         </span>
                         <div id="odUD" class="col-4 ddValue">
                         </div>
                 </div>
                 <div class="row">
                         <div class="col-8">
-                              <span class="ddLabel">  Load (MW)
+                              <span class="ddLabel">  Load 
 </span>
                         </div>
                         <div id="loadMW" class="col-4 ddValue">

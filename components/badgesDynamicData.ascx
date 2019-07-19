@@ -16,23 +16,23 @@
 
 
 
-<span class="badge badge-light">Frequency (Hz):<span id="frequencyHz" class="badge badge-danger">
+<span class="badge badge-light">Frequency :<span id="frequencyHz" class="badge badge-danger">
                         </span>
       </span>                  
                         
-<span class="badge badge-light"> Drawal (MW) <span id="drawalMW" class="badge badge-danger">
+<span class="badge badge-light"> Drawal  <span id="drawalMW" class="badge badge-danger">
                         </span></span>
                       
-                       <span class="badge badge-light">         Schedule (MW)
+                       <span class="badge badge-light">         Schedule 
                         <span id="scheduleMW" class="badge badge-danger">
                         </span>
                       
                        </span>
                       
                       
-                <span class="badge badge-light">   OD(+)/UD(-) (MW)<span id="odUD" class="badge badge-danger">
+                <span class="badge badge-light">   OD(+)/UD(-)<span id="odUD" class="badge badge-danger">
                         </span></span>
-                                                      <span class="badge badge-light">  Load (MW)<span id="loadMW" class="badge badge-danger">
+                                                      <span class="badge badge-light">  Load <span id="loadMW" class="badge badge-danger">
                         </span>
 </span>
                         
