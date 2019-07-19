@@ -59,9 +59,10 @@
                         <div id="loadMW" class="col-4 ddValue">
                         </div>
                 </div>
-        <div class="row">
                          <a href="realtimepbGen.aspx" class="a-red">
 
+        <div class="row">
+    
                         <div class="col-8">
                               <span class="ddLabel">  Gross Generation(Pb.)
 </span>
@@ -69,6 +70,7 @@
 
                         <div id="grossGen" class="col-4 ddValue">
                         </div>
+                        
                 </div>
 </a>
 
