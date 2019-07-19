@@ -38,26 +38,26 @@ function insertPbGrossData(arr) {
   } else if (arr.grossGeneration == null) {
     updatePbGrossData();
   } else {
-    document.getElementById("grossGen").innerHTML = Math.round(
-      arr.grossGeneration.value
-    );
+    document.getElementById("grossGen").innerHTML =
+      Math.round(arr.grossGeneration.value) + " MW";
   }
 }
 function myFunction(arr) {
   if (arr.updateDate != "" && arr.updateDate != null) {
     document.getElementById("updateDate").innerHTML = arr.updateDate;
 
-    document.getElementById("frequencyHz").innerHTML = arr.frequencyHz;
+    document.getElementById("frequencyHz").innerHTML = arr.frequencyHz + " Hz";
 
-    document.getElementById("drawalMW").innerHTML = Math.round(arr.drawalMW);
+    document.getElementById("drawalMW").innerHTML =
+      Math.round(arr.drawalMW) + " MW";
 
-    document.getElementById("scheduleMW").innerHTML = Math.round(
-      arr.scheduleMW
-    );
+    document.getElementById("scheduleMW").innerHTML =
+      Math.round(arr.scheduleMW) + " MW";
 
-    document.getElementById("odUD").innerHTML = Math.round(arr.odUD);
+    document.getElementById("odUD").innerHTML = Math.round(arr.odUD) + " MW";
 
-    document.getElementById("loadMW").innerHTML = Math.round(arr.loadMW);
+    document.getElementById("loadMW").innerHTML =
+      Math.round(arr.loadMW) + " MW";
   } else {
     updateDynamicData();
   }
