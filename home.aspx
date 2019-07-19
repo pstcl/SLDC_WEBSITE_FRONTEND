@@ -10,7 +10,7 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
     <script src="https://www.gstatic.com/charts/loader.js"></script>
     <script type="text/javascript" src="./js/chartfinal.js?v=100710071"></script>
-    <script type="text/javascript" src="./js/odudChart.js?v=1007100710071"></script>
+    <script type="text/javascript" src="./js/odudChart.js?v=1107100710071"></script>
     <script type="text/javascript" src="./js/frequencyChart.js?v=10071"></script>
     <script type="text/javascript" src="./js/drawalChart.js?v=10071"></script>
 

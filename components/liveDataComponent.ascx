@@ -1,4 +1,4 @@
-<script type="text/javascript" src="./js/dynamicData.js?v=1"></script>
+<script type="text/javascript" src="./js/dynamicData.js?v=2"></script>
 <script type="text/javascript">
 
       $(document).ready(function () {
@@ -59,6 +59,19 @@
                         <div id="loadMW" class="col-4 ddValue">
                         </div>
                 </div>
+        <div class="row">
+                         <a href="realtimepbGen.aspx" class="a-red">
+
+                        <div class="col-8">
+                              <span class="ddLabel">  Gross Generation(Pb.)
+</span>
+                        </div>
+
+                        <div id="grossGen" class="col-4 ddValue">
+                        </div>
+                </div>
+</a>
+
 
         </div>
         
