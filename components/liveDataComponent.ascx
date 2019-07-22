@@ -7,7 +7,7 @@
       });
 
     </script>
-<div class="card" >
+<div class="card cardDaynamicData" >
         <div class="card-header">Power Status at&nbsp;<span id="updateDate"></span>&nbsp;</div>
 
 
@@ -17,58 +17,58 @@
 
                 <div class="row">
 
-                        <div class="col-8">
+                        <div class="col-9">
                                <span class="ddLabel"> Updated at</span>
                         </div>
-                        <div id="updateDate1" class="col-4">
+                        <div id="updateDate1" class="col-3">
                         </div>
                 </div>
 -->
                 <div class="row">
-                        <div class="col-8">
+                        <div class="col-9">
 <span class="ddLabel">                                Frequency:
       </span>                  </div>
-                        <div id="frequencyHz" class="col-4 ddValue">
+                        <div id="frequencyHz" class="col-3 ddValue">
                         </div>
                 </div>
 
                 <div class="row">
-                        <div class="col-8">
+                        <div class="col-9">
             <span class="ddLabel">                    Drawal </div>
-                 </span>       <div id="drawalMW" class="col-4 ddValue">
+                 </span>       <div id="drawalMW" class="col-3 ddValue">
                         </div>
                 </div>
                 <div class="row">
-                        <div class="col-8">
+                        <div class="col-9">
                        <span class="ddLabel">         Schedule </div>
-                       </span> <div id="scheduleMW" class="col-4 ddValue">
+                       </span> <div id="scheduleMW" class="col-3 ddValue">
                         </div>
                 </div>
                 <div class="row">
-                        <div class="col-8">
+                        <div class="col-9">
                              <span class="ddLabel">   OD(+)/UD(-) </div>
                         </span>
-                        <div id="odUD" class="col-4 ddValue">
+                        <div id="odUD" class="col-3 ddValue">
                         </div>
                 </div>
                 <div class="row">
-                        <div class="col-8">
+                        <div class="col-9">
                               <span class="ddLabel">  Load 
 </span>
                         </div>
-                        <div id="loadMW" class="col-4 ddValue">
+                        <div id="loadMW" class="col-3 ddValue">
                         </div>
                 </div>
                          <a href="realtimepbGen.aspx" class="a-red">
 
-        <div class="row">
+        <div class="row row-fluid">
     
-                        <div class="col-8">
+                        <div class="col-9">
                               <span class="ddLabel">  Gross Generation(Pb.)
 </span>
                         </div>
 
-                        <div id="grossGen" class="col-4 ddValue">
+                        <div id="grossGen" class="col-3 ddValue">
                         </div>
                         
                 </div>
