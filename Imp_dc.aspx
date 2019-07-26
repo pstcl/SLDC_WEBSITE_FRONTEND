@@ -40,6 +40,7 @@
 
 						<td>
 							<select name="s_month" size="1">
+								<option value="Jul2019">Jul 2019 </option>
 								<option value="Jun2019">Jun 2019 </option>
 								<option value="May2019">May 2019 </option>
 								<option value="Apr2019">Apr 2019 </option>
