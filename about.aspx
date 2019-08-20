@@ -248,41 +248,76 @@ Standards and State Grid Code.</p></li>
           </div>
           <div class="tab-pane fade p-3" id="open_access" role="tabpanel" aria-labelledby="three-tab">
             
-            <p class="card-text" align="justify">
-              Open Access office under Chief Engineer/SLDC, 
-PSTCL, Patiala is a nodal agency in state power utilities for grant of short 
-term open access to all eligible customers &amp; consumers of PSPCL.</p>
-<p ALIGN="JUSTIFY" class="card-text" DIR="LTR">Open Access is being granted in discriminatorily by 
-PSTCL to all the eligible open access customers embedded in Transmission and 
-Distribution system of PSTCL &amp; PSPCL as per provisions of Electricity Act-2003 
-and Open Access Regulations issued by Punjab State Electricity Regulatory 
-Commission (PSERC) and Central Electricity Regulatory Commission (CERC) from 
-time to time.</p>
-<p ALIGN="JUSTIFY" class="card-text" DIR="LTR">Open Access office also deals with the UI/ 
-Deviation Settlement based energy accounting of Open Access customers 
-transacting power on short term basis and IPPs selling power to PSPCL on long 
-term basis. Besides records are maintained for energy scheduled under short term 
-open access, UI/ Deviation and assessment of open access charges.</p>
-<b>
-<p ALIGN="JUSTIFY" class="card-text" DIR="LTR">Present Status (as on 31.01.2019)</p>
-</b>
-<p ALIGN="JUSTIFY" class="card-text" DIR="LTR">Short Term Open Access for wheeling of power has 
-been granted 2 no. captive consumers for intra-state wheeling of power from 
-their own Captive Power Plant(s) under bilateral transactions. (Total 10.9 MW)</p>
-<p ALIGN="JUSTIFY" class="card-text" DIR="LTR">Short Term Open Access for inter-state purchase of 
-power through collective (power exchange)/ bilateral transactions has been 
-granted to 442 no. Large supply consumers of PSPCL (Powercom<a NAME="_GoBack"></a>) 
-(total 1823 MW approx.), out of which 9 no. active consumers with a total STOA 
-granted for 90.9 MW (approx.) have valid consent as on date. These consumers are 
-purchasing power through power exchange based on their day to day requirement 
-and market trend.</p>
-<p ALIGN="JUSTIFY" class="card-text" DIR="LTR"></p>
-<p>To know about guidelines, procedure &amp; formats for grant of Open Access,&nbsp;</font></span><a href="http://www.punjabsldc.org/oldsite/index.asp?pg=oa"><span LANG="EN"><font FACE="Georgia" >click 
-here</font></span></a><span LANG="EN"><font FACE="Georgia" SIZE="2">. Or you may 
-visit </font></span><a href="http://www.pspcl.in//t_blank"><span LANG="EN">
-<font FACE="Georgia" >www.pspcl.in.</font></span></a>
-            </p>
-                 
+<head>
+<style>
+<!--
+ p.MsoNormal
+	{mso-style-parent:"";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:10.0pt;
+	margin-left:0in;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";
+	}
+span.apple-converted-space
+	{}
+-->
+</style>
+</head>
+
+<p class="MsoNormal" style="text-align:justify">
+<span style="font-size:10.0pt;
+line-height:115%;font-family:&quot;Georgia&quot;,&quot;serif&quot;">Open Access 
+office under Chief Engineer/SLDC, PSTCL, Patiala is a nodal agency in state 
+power utilities for grant of short term open access to all eligible customers &amp; 
+consumers of PSPCL.</span></p>
+<p class="MsoNormal" style="text-align:justify">
+<span style="font-size:10.0pt;
+line-height:115%;font-family:&quot;Georgia&quot;,&quot;serif&quot;">Open Access 
+is being granted in discriminatorily by PSTCL to all the eligible open access 
+customers embedded in Transmission and Distribution system of PSTCL &amp; PSPCL as 
+per provisions of Electricity Act-2003 and Open Access Regulations issued by 
+Punjab State Electricity Regulatory Commission (PSERC) and Central Electricity 
+Regulatory Commission (CERC) from time to time.</span></p>
+<p class="MsoNormal" style="text-align:justify">
+<span style="font-size:10.0pt;
+line-height:115%;font-family:&quot;Georgia&quot;,&quot;serif&quot;">Open Access 
+office also deals with the UI/ Deviation Settlement based energy accounting of 
+Open Access customers transacting power on short term basis and IPPs selling 
+power to PSPCL on long term basis. Besides records are maintained for energy 
+scheduled under short term open access, UI/ Deviation and assessment of open 
+access charges.</span></p>
+<p class="MsoNormal" style="text-align:justify"><b>
+<span style="font-size:10.0pt;line-height:115%;font-family:&quot;Georgia&quot;,&quot;serif&quot;">
+Present Status (as on 31.07.2019)</span></b></p>
+<p class="MsoNormal" style="text-align:justify">
+<span style="font-size:10.0pt;
+line-height:115%;font-family:&quot;Georgia&quot;,&quot;serif&quot;">Short Term 
+Open Access for wheeling of power has been granted 2 no. captive consumers for 
+intra-state wheeling of power from their own Captive Power Plant(s) under 
+bilateral transactions. (Total 10.9 MW)</span></p>
+<p class="MsoNormal" style="text-align:justify">
+<span style="font-size:10.0pt;
+line-height:115%;font-family:&quot;Georgia&quot;,&quot;serif&quot;">Short Term 
+Open Access for inter-state purchase of power through collective (power 
+exchange)/ bilateral transactions has been granted to 442 no. Large supply 
+consumers of PSPCL (Powercom) (total 1823 MW approx.), out of which 5 no. active 
+consumers with a total STOA granted for 45.51 MW (approx.) have valid consent as 
+on date. These consumers are purchasing power through power exchange based on 
+their day to day requirement and market trend.</span></p>
+<span style="font-size: 10.0pt; line-height: 115%; font-family: Georgia,serif">
+To know about guidelines, procedure &amp; formats for grant of Open Access,<span class="apple-converted-space">&nbsp;</span></span><span style="font-size: 11.0pt; line-height: 115%; font-family: Calibri,sans-serif"><a style="color: blue; text-decoration: underline; text-underline: single"  class="text-theme-color" href="http://www.punjabsldc.org/index.asp?pg=oa"><span style="font-size:10.0pt;
+line-height:115%;font-family:&quot;Georgia&quot;,&quot;serif&quot;;color:windowtext">click 
+here</span></a></span><span style="font-size: 10.0pt; line-height: 115%; font-family: Georgia,serif">. 
+Or you may visit </span>
+<span style="font-size: 11.0pt; line-height: 115%; font-family: Calibri,sans-serif">
+<a target="_blank" style="color: blue; text-decoration: underline; text-underline: single"  class="text-theme-color" href="http://www.pspcl.in/">
+<span style="font-size:10.0pt;
+line-height:115%;font-family:&quot;Georgia&quot;,&quot;serif&quot;;color:windowtext">
+www.pspcl.in</span></a></span><span style="font-size: 10.0pt; line-height: 115%; font-family: Georgia,serif">.</span>
+                
           </div>
 
         </div>
