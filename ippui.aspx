@@ -57,6 +57,7 @@
 									</option><option value="0119">Jan 2019</option><option value="0219">Feb 2019</option><option value="0319">Mar 2019</option><option value="0419">Apr 2019</option><option value="0519">May 2019</option>
 									<option value="0619">Jun 2019</option>
 									<option value="0719">Jul 2019</option>
+									<option value="0819">Aug 2019 </option>
 									</select>  
                                     </td>
                            							
