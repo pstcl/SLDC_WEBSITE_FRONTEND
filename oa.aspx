@@ -1,120 +1,174 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPstcl.master" AutoEventWireup="true" CodeFile="oa.aspx.cs" Inherits="oa" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
-	<div class="PostMetadataHeader">
-		<h2 class="PostHeaderIcon-wrapper">
-			<span class="PostHeader">Open Access Information</span>
-		</h2>
-	</div>
-	<div class="PostContent">
 
-		<p style="text-align:justify">(A)&nbsp;&nbsp;&nbsp;&nbsp;<a href="publicnotice.aspx">Public Notices</a>
-			<!--<img border="0" src="../images/new.gif" width="35" height="19"></p>-->
-			<p style="text-align:justify">(B)&nbsp;&nbsp;&nbsp; Purchase of Power through Open Access by consumer of
+	<div class="container">
+		<div class="row">
+			<h2>Open Access Information</h2>
+		</div>
+
+		<div class="row">
+
+			<div class="card col-md-6">
+				<div class="card-header">
+					<h5 class="card-title">Short Term Open Access Procedure</h5>
+
+				</div>
+				<div class="card-body">
+
+					<ul class="list-group list-group-flush">
+
+						<li class="list-group-item">(A)<a href="publicnotice.aspx">Public Notices</a>
+							<!--<img border="0" src="../images/new.gif" width="35" height="19"></li>-->
+							<li class="list-group-item">(B) Purchase of Power through Open Access by consumer of
 				PSPCL/PSTCL
-				<!--<img border="0" src="../images/new.gif" width="35" height="19"></p>-->
-				<p style="text-align:justify">1.&nbsp;&nbsp;&nbsp;
-					<a target="_blank" href="oa/Revised Open Access Procedures (Final Approved).pdf">Revised Short Term
+																																																																																																																																																																																																																																																																																																																																																																													<!--<img border="0" src="../images/new.gif" width="35" height="19"></li>-->
+								<li class="list-group-item">1.
+									<a target="_blank" href="oa/Revised Open Access Procedures (Final Approved).pdf">Revised Short Term
 						Open Access
-						Procedures (Complete)</a></p>
-				<p style="text-align:justify">2.&nbsp;&nbsp;&nbsp; Steps for applying for Short Term Open Access</p>
-				<p style="text-align:justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2.1&nbsp;
-					<a target="_blank" href="oa/Flow Chart.pdf">Flow Chart</a></p>
-				<p style="text-align:justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2.2&nbsp;
-					<a target="_blank" href="oa/Activity%20chart.pdf">Activity Chart/Time Lines</a></p>
-				<p style="text-align:justify">3.&nbsp;&nbsp;&nbsp;
-					<a target="_blank" href="oa/Eligibilty%20Requirements.pdf">Eligibility Requirements</a>
-					<p style="text-align:justify">
-						4.&nbsp;&nbsp;&nbsp;
-						<a target="_blank" href="oa/Procedures%20for%20Submission%20of%20Application.pdf">Procedure for
+						Procedures (Complete)</a>
+								</li>
+								<li class="list-group-item">2. Steps for applying for Short Term Open Access</li>
+								<li class="list-group-item"> 2.1
+									<a target="_blank" href="oa/Flow Chart.pdf">Flow Chart</a>
+								</li>
+								<li class="list-group-item"> 2.2
+									<a target="_blank" href="oa/Activity%20chart.pdf">Activity Chart/Time Lines</a>
+								</li>
+								<li class="list-group-item">3.
+									<a target="_blank" href="oa/Eligibilty%20Requirements.pdf">Eligibility Requirements</a>
+									<li class="list-group-item">
+						4.
+										<a target="_blank" href="oa/Procedures%20for%20Submission%20of%20Application.pdf">Procedure for
 							submission of Application Form
-						</a></p>
-					<p style="text-align:justify">5.&nbsp;&nbsp;&nbsp;
-						<a target="_blank" href="oa/Processing%20%20&%20Approval%20of%20Application.pdf">Processing
-							&amp; approval of Application</a></p>
-					<p style="text-align:justify">6.&nbsp;&nbsp;&nbsp;
-						<a target="_blank" href="oa/Formats for applying for STOA (Form-I).docx">Formats for applying
+										</a>
+									</li>
+									<li class="list-group-item">5.
+										<a target="_blank" href="oa/Processing%20%20&%20Approval%20of%20Application.pdf">Processing
+							&amp; approval of Application</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+
+						<div class="card col-md-6">
+							<div class="card-header">
+								<h5 class="card-title">Formats</h5>
+
+							</div>
+							<div class="card-body">
+								<ul class="list-group  list-group-flush">
+
+									<li class="list-group-item">1.
+										<a target="_blank" href="oa/Formats for applying for STOA (Form-I).docx">Formats for applying
 							for STOA
-							(Form I)</a></p>
-					<p style="text-align:justify">7.&nbsp;&nbsp;&nbsp;
-						<a target="_blank"
-							href="oa/Formats for applying NOC, Standing Clearance, Concurrence(Form-II & III).docx">Formats
-							for applying NOC, Standing Clearance, Concurrence(Form-II & III)</a></p>
-					<p style="text-align:justify">8.&nbsp;&nbsp;&nbsp;
-						<a target="_blank" href="oa/Undertaking by the customer (Form-V).docx">Undertaking by the
-							Customer (Form V)</a></p>
-					<p style="text-align:justify">9.&nbsp;&nbsp;&nbsp;
-						<a target="_blank" href="oa/Daily Injection data by Generators (Form-VI).docx">Daily Injection
-							data by Generators (Form VI)</a></p>
-					<p style="text-align:justify">10.&nbsp;&nbsp;&nbsp;
-						<a target="_blank" href="oa/Daily Bilateral Transaction details (Form-VII).docx">Daily Bilateral
-							Transaction details (Form-VII)</a></p>
-					<p style="text-align:justify">11.&nbsp;&nbsp;&nbsp;
-						<a target="_blank"
-							href="oa/Suggested Format for Board Resolution & Authorization letter (Form-VIII).docx">Suggested
-							Format for Board Resolution & Authorization letter (Form-VIII)</a></p>
-					<p style="text-align:justify">12.&nbsp;&nbsp;&nbsp;
-						<a target="_blank" href="oa/Format for Compliance Report (Form-IX).docx">Format for Compliance
-							Report (Form-IX)</a></p>
-					<p style="text-align:justify">13.&nbsp;
-						<a target="_blank" href="oa/Metering%20guidelines.pdf">Metering Guidelinesss</a></p>
-					<!--<p  style="text-align:justify">11.&nbsp;
-<a target="_blank" href="oa/grantoa.pdf">Extension in Grant of Open Access to the customers upto 31.01.2013</a></p>-->
-					<p style="text-align:justify">(C)&nbsp;&nbsp;<a target="_blank" href="oa/List.xlsx">List of Open
-							Access Customers</a></p>
-					<!--<p style="text-align:justify">(D)&nbsp;<a target="_blank" href="oa/calc_details.xlsx">Detail of calculations of Total Transmission & Wheeling charges in respect of Open Access Customers for the period&nbsp; 01.04.2013 to 11.04.2013</a><img border="0" src="../images/new.gif" width="35" height="19"></p>-->
-					<table border="1" width="99%">
-						<tr>
-							<td align="justify">
-								<p align="left"><i><u><b>
-												<font size="4">IMPORTANT NOTE:</font>
-											</b></u></i></p>
-								<p><i><b>Application for grant of Open Access shall be submitted, in
-											duplicate, directly in the office of CE/SLDC (Open Access), PSTCL, Ablowal,
-											Patiala.</b></i></p>
-								<p><i><b>For NOC/Standing Clearance, applications may be forwarded at
-											following e-mail id: aee-noc-opac@pstcl.org</b></i></p>
-							</td>
-						</tr>
-					</table>
-					<p><b>
-							<font size="5">Contact Details</font>
-						</b></p>
-					<p><b>
-							<font size="2">For any clarification, please
-								contact:</font>
-						</b></p>
-					<p>
-						<font size="2">SE / Open Access, PSTCL, Ablowal, Patiala</font>
-					</p>
-					<p>
-						<font size="2">
-							SLDC Building, 220KV Sub Station, Ablowal, Patiala. Mobile:
-							9646118003; e-mail: se-opac@pstcl.org</font>
-					</p>
-					<p><b>
-							<font size="2">For NOC &amp; other inquiry, please contact:</font>
-						</b></p>
-					<p>
-						<font size="2">
+							(Form I)</a>
+									</li>
+									<li class="list-group-item">2.
+										<a target="_blank" href="oa/Formats for applying NOC, Standing Clearance, Concurrence(Form-II & III).docx">Formats
+							for applying NOC, Standing Clearance, Concurrence(Form-II & III)</a>
+									</li>
+									<li class="list-group-item">3.
+										<a target="_blank" href="oa/Undertaking by the customer (Form-V).docx">Undertaking by the
+							Customer (Form V)</a>
+									</li>
+									<li class="list-group-item">4.
+										<a target="_blank" href="oa/Daily Injection data by Generators (Form-VI).docx">Daily Injection
+							data by Generators (Form VI)</a>
+									</li>
+									<li class="list-group-item">5.
+										<a target="_blank" href="oa/Daily Bilateral Transaction details (Form-VII).docx">Daily Bilateral
+							Transaction details (Form-VII)</a>
+									</li>
+									<li class="list-group-item">6.
+										<a target="_blank" href="oa/Suggested Format for Board Resolution & Authorization letter (Form-VIII).docx">Suggested
+							Format for Board Resolution & Authorization letter (Form-VIII)</a>
+									</li>
+									<li class="list-group-item">7.
+										<a target="_blank" href="oa/Format for Compliance Report (Form-IX).docx">Format for Compliance
+							Report (Form-IX)</a>
+									</li>
+									<li class="list-group-item">8.
+										<a target="_blank" href="oa/Metering%20guidelines.pdf">Metering Guidelinesss</a>
+									</li>
+									<!--<p style="text-align:justify">11.
+<a target="_blank" href="oa/grantoa.pdf">Extension in Grant of Open Access to the customers upto 31.01.2013</a></li>-->
+									<li class="list-group-item">(C)<a target="_blank" href="oa/List.xlsx">List of Open
+							Access Customers</a>
+									</li>
+
+								</ul>
+							</div>
+						</div>
+					</div>
+
+
+
+					<div class="row card">
+						<div class="card-header">
+							<h5 class="card-title">Whom to Contact</h5>
+
+						</div>
+						<div class="card-body">
+							<ul class="list-group  list-group-flush">
+
+								<li class="list-group-item">
+									<span class="badge badge-light">	Application for grant of Open Access</span> 
+							shall be submitted, in
+											duplicate, directly in the office of<div class="alert alert-light" role="alert">
+									<b> CE/SLDC (Open Access), PSTCL, Ablowal,
+											Patiala.</b>
+								</div>
+
+							</li>
+
+							<li class="list-group-item">
+								<span class="badge badge-light">For NOC/Standing Clearance</span>, applications may be forwarded at
+											following e-mail id: <div class="alert alert-light" role="alert">
+								<b>aee-noc-opac@pstcl.org</b>
+							</div>
+						</li>
+						<li class="list-group-item">
+
+							<span class="badge badge-light">For any clarification</span>, please
+								contact:<br>
+							<div class="alert alert-light" role="alert">
+								<b>									SE / Open Access, PSTCL, Ablowal, Patiala
+									<br>SLDC Building, 220KV Sub Station, Ablowal, Patiala.<br> Mobile:
+							9646118003; e-mail: se-opac@pstcl.org</b>
+									</div>
+								</li>
+								<li class="list-group-item">
+
+									<span class="badge badge-light">
+For NOC &amp; other inquiry,</span> please
+								contact:<br>
+									<div class="alert alert-light" role="alert">
+										<b>									
 							Addl SE/Sr.
 							Xen/ Open Access, PSTCL, Ablowal, Patiala.
-							Mobile: 9646118035</font>
-					</p>
-					<p>
-						<font size="2">NOC e-mail ID: &quot;aee-noc-opac@pstcl.org&quot;</font>
-					</p>
+							Mobile: 9646118035
+NOC e-mail ID: &quot;aee-noc-opac@pstcl.org&quot;
+						
 
-					<p align="left"><b>
-							<font size="2">For Billing Enquiry, please
-								contact:</font>
-						</b></p>
-					<p align="left">
-						<font size="2">Accounts
+										</b>
+									</div>
+								</li>
+								<li class="list-group-item">
+									<span class="badge badge-light">
+For Billing Enquiry,</span> please
+								contact:<br>
+									<div class="alert alert-light" role="alert">
+										<b>	
+								Accounts
 							Officer/SLDC, PSTCL, Ablowal, Patiala.
-							Mobile: 9646118062&nbsp;&nbsp; </font>
-					</p>
-
-	</div>
-
-</asp:Content>
+							Mobile: 9646118062 
+										</b>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</asp:Content>
