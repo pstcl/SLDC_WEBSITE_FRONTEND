@@ -308,15 +308,10 @@ consumers with a total STOA granted for 45.51 MW (approx.) have valid consent as
 on date. These consumers are purchasing power through power exchange based on 
 their day to day requirement and market trend.</span></p>
 <span style="font-size: 10.0pt; line-height: 115%; font-family: Georgia,serif">
-To know about guidelines, procedure &amp; formats for grant of Open Access,<span class="apple-converted-space">&nbsp;</span></span><span style="font-size: 11.0pt; line-height: 115%; font-family: Calibri,sans-serif"><a style="color: blue; text-decoration: underline; text-underline: single"  class="text-theme-color" href="http://www.punjabsldc.org/index.asp?pg=oa"><span style="font-size:10.0pt;
+To know about guidelines, procedure &amp; formats for grant of Open Access,<span class="apple-converted-space">&nbsp;</span></span><span style="font-size: 11.0pt; line-height: 115%; font-family: Calibri,sans-serif"><a style="color: blue; text-decoration: underline; text-underline: single"  class="text-theme-color" href="http://www.punjabsldc.org/oa.aspx"><span style="font-size:10.0pt;
 line-height:115%;font-family:&quot;Georgia&quot;,&quot;serif&quot;;color:windowtext">click 
 here</span></a></span><span style="font-size: 10.0pt; line-height: 115%; font-family: Georgia,serif">. 
-Or you may visit </span>
-<span style="font-size: 11.0pt; line-height: 115%; font-family: Calibri,sans-serif">
-<a target="_blank" style="color: blue; text-decoration: underline; text-underline: single"  class="text-theme-color" href="http://www.pspcl.in/">
-<span style="font-size:10.0pt;
-line-height:115%;font-family:&quot;Georgia&quot;,&quot;serif&quot;;color:windowtext">
-www.pspcl.in</span></a></span><span style="font-size: 10.0pt; line-height: 115%; font-family: Georgia,serif">.</span>
+
                 
           </div>
 

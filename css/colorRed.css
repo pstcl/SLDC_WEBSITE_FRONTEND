@@ -1,126 +1,126 @@
 body {
-  background: #fff;
+    background: #fff;
 }
 
 .background-black {
-  background-color: #002040;
+    background-color: #002040;
 }
 
 .background-white {
-  background-color: #f5f8fa;
+    background-color: #f5f8fa;
 }
 
 .badge-danger {
-  color: #fff;
-  background-color: #f70909;
+    color: #fff;
+    background-color: #f70909;
 }
 
 .navbar-toggler-icon {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(238, 24, 24, 1)' stroke-width='5' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(238, 24, 24, 1)' stroke-width='5' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
 .navbar-toggler {
-  border-color: rgb(238, 24, 24);
-  background-color: #f7f8f9;
+    border-color: rgb(238, 24, 24);
+    background-color: #f7f8f9;
 }
 
 .text-theme-color {
-  color: #ff4d2e;
+    color: #ff4d2e;
 }
 
 .topMainstrip {
-  background-color: #ff4d2e;
+    background-color: #ff4d2e;
 }
 
 .topstrip {
-  background: #f36513;
+    background: #f36513;
 }
 
 .navbar {
-  background-color: #ff4d2e;
+    background-color: #ff4d2e;
 }
 
 #footer {
-  background: #ff4d2e !important;
+    background: #ff4d2e !important;
 }
 
 .page-header>a {
-  color: #ff4d2e;
+    color: #ff4d2e;
 }
 
 .page-sub-header {
-  color: #ff4d2e;
+    color: #ff4d2e;
 }
 
 .nav-item>a {
-  color: #f8f9fa;
+    color: #f8f9fa;
 }
 
 #nav-content>.navbar-nav>.nav-item>.nav-link {
-  color: #fff;
+    color: #fff;
 }
 
 #nav-content>.navbar-nav>.nav-item>.nav-link:hover {
-  color: #fff;
-  background-color: #fd4444;
+    color: #fff;
+    background-color: #fd4444;
 }
 
 .navbar-toggler {
-  border-color: white;
-  background-color: white;
+    border-color: white;
+    background-color: white;
 }
 
 .text {
-  color: #fff;
+    color: #fff;
 }
 
 .hdtitle {
-  background: #d3fd17;
-  color: #fff;
+    background: #d3fd17;
+    color: #fff;
 }
 
 .defaultcolor {
-  background: none repeat scroll 0 0 #fff;
-  border: 1px solid #fff;
+    background: none repeat scroll 0 0 #fff;
+    border: 1px solid #fff;
 }
 
 .logotext {
-  color: #42413c;
+    color: #42413c;
 }
 
 a {
-  color: #fff;
+    color: rgb(230, 16, 16);
 }
 
 .a-red {
-  color: #fd4444;
+    color: #fd4444;
 }
 
 .headerlft {
-  color: #fff;
+    color: #fff;
 }
 
 .rightborder {
-  color: #fff;
+    color: #fff;
 }
 
 .rightborder a {
-  color: #fff;
+    color: #fff;
 }
 
 .topstripbar {
-  background: #f6fa1e;
+    background: #f6fa1e;
 }
 
 .topMainstrip-one {
-  color: #fff;
+    color: #fff;
 }
 
 .topMainstrpleft {
-  color: #fff;
+    color: #fff;
 }
 
 .card-header {
-  background-color: #e66c4eea;
-  color: #fff;
+    background-color: #e66c4eea;
+    color: #fff;
 }
