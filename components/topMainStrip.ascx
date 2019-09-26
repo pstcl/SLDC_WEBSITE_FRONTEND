@@ -60,10 +60,10 @@
                              </div>
                         </li>
 
-<li>
+<!--<li>
      <a class="btn btn-warning oldLink" data-toggle="tooltip" title="Go to Older Version"
                         href="http://www.punjabsldc.org/oldsite/">Old Website</a>
-    </li>
+    </li>-->
                     </ul>
 
 

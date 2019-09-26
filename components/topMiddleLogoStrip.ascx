@@ -23,14 +23,17 @@
                 </div>
             </div>
         </div>
-        <div class="col-md-5 col-sm-5  col-xs-12">
-            <div class="row">
-                
-                <div class="row" role="search">
+        <div class="col-md-5 col-sm-5 col-xs-12">
+		<div class="row" role="search">
+		<div style="padding-left:100px;">
+			<a target="_blank" href="https://www.550yearsofgurunanakdevji.com/"  >
+            <img src="images/sikhism-logo.png" alt="PSTCL" width="90px" height="70px" ></a>
+		</div>
+		<div style="padding-left:100px;">                
                     <span style="float: left;" class="srchboxcommon">
                         <label for="Search"></label>
                         <input name="Search" type="text" id="searchTxt" title="Search" autocomplete="off"
-                            placeholder="Search" style="color: #5E5E5E; width: 150px; border: none;" onkeydown="">
+                            placeholder="Search" style="color: #5E5E5E; width: 100px; border: none;" onkeydown="">
                         <label for="ImageButton1"></label>
                         <input type="image" name="ctl00$ImageButton1" id="searchBtn" alt="search" title="search"
                             src='./images/search.png' />
@@ -42,5 +45,4 @@
         </div>
     </div>
    
-</div>
 </div>
