@@ -113,6 +113,7 @@
                 </div>
                 <div class="col-sm-6">
                     <select class="form-control" name="s_month" id="s_month" size="1">
+                         <option value="Sep19">Sep 2019 </option>
                         <option value="Aug19">Aug 2019 </option>
                         <option value="Jul19">Jul 2019 </option>
 						<option value="Jun19">Jun 2019 </option>
