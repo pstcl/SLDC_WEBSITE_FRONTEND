@@ -1,24 +1,41 @@
 <%@ Control Language="C#" AutoEventWireup="true"   %>
-          <div class="card">
-            <div class="card-header">NEWS</div>
+<div class="card">
+  <div class="card-header">Latest updates</div>
 
 
-            <div class="card-body">
+  <div class="card-body">
 
 
 
-                <marquee behavior="scroll" direction="up" id="mymarquee" behavior="scroll" onmouseover="this.stop();"
-                  onmouseout="this.start(); scrollamount=8;">
+
+    <ul>
+      <li>
+
+        <h5>
+          <img style="margin-right: 6px; vertical-align: bottom;" src="images/logo/calendar.png" alt="new">Mon, 30th Sep, 2019</h5>
+          <a href="downloads\sept2019\ApprovedFSProcedure.pdf" class="a-red" target="_blank">
+            <img style="margin-right: 3px;" src="images/logo/new.gif" alt="new">
+              Approved Procedure for Forecasting, Scheduling, Deviation settlement of Solar and wind Generation</a>
+          </li>
+
+          <li>
+            <br>
+              <br>
+              </li>
+
+              <li>
 
 
-                  <p class="card-text"> For kind attention of Open Access Consumers/applicants of Punjab</p>
-                  <p class="card-text">8th amendment of PSERC (Terms & Conditions for Intra-State OA) Regulations, 201
-                  </p>
-                  <p class="Ul/Deviation charges as per 4th amendment of CERC (Deviation Settlement Mechanism & Related matters) Regulations, 2014</p>
-                      <p class=" card-text">PSERC Tariff Order 2018-19 for OA Consumers</p>
-                </marquee>
+                <h5>
+                  <img style="margin-right: 6px; vertical-align: bottom;" src="images/logo/calendar.png" alt="new">Mon, 30th Sep, 2019</h5>
+                  <a href="downloads\sept2019\ApprovedFSProcedure.pdf" class="a-red" target="_blank">
+                    <img style="margin-right: 3px;" src="images/logo/new.gif" alt="new">Annexures and formats reated to forecasting, Scheduling, Deviation </a>
+                  </li>
 
-              </div>
-              
-              
-              </div>
+                  <ul>
+
+
+                  </div>
+
+
+                </div>
