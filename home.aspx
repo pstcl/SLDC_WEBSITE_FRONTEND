@@ -12,7 +12,7 @@
     <script type="text/javascript" src="./js/chartfinal.js?v=100710071"></script>
     <script type="text/javascript" src="./js/odudChart.js?v=1107100710071"></script>
     <script type="text/javascript" src="./js/frequencyChart.js?v=10071"></script>
-    <script type="text/javascript" src="./js/drawalChart.js?v=10071"></script>
+    <script type="text/javascript" src="./js/drawalChart.js?v=1410"></script>
 
 
 

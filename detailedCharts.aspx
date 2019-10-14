@@ -13,7 +13,7 @@
     </link>
     <script type="text/javascript" src="./js/odudChart.js?v=1107"></script>
     <script type="text/javascript" src="./js/frequencyChart.js?v=0607"></script>
-    <script type="text/javascript" src="./js/drawalChart.js?v=0607"></script>
+    <script type="text/javascript" src="./js/drawalChart.js?v=1410"></script>
 
     <script type="text/javascript">
         google.charts.load('current', {
