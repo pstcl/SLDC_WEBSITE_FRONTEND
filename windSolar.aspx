@@ -17,6 +17,11 @@
 							<ul class="list-group  list-group-flush">
 
 								<li class="list-group-item">
+
+<a href="downloads\sept2019\PublicNotice.pdf" class="a-red" target="_blank">
+             Public Notice (For Kind Attention of Solar and Wind Generators of Punjab)</a>
+</li>
+								<li class="list-group-item">
 		<a class="a-red" href="https://www.pserc.gov.in/pages/notification-no-135.pdf">Forecasting,Scheduling, Deviation Settlement and Related Matters of Solar and Wind Generation Sources, Regulations 2019</a>
 							</li>
 <li class="list-group-item"><a class="a-red" href="https://www.pserc.gov.in/pages/Approved-FSProcedure-24.09.2019.pdf">1. Detailed Procedure</a><br>
