@@ -1,4 +1,12 @@
 <!--navbar-->
+
+ <script type="text/javascript">
+        function external() {
+            var r = confirm("This link will take you to an external website.");
+            return r;
+        }
+		
+		</script>
 <nav class="navbar navbar-expand-md">
     <div class="d-md-none background-white">
         <a href='/' title="PSTCL LOGO" class="background-white">
@@ -34,13 +42,13 @@
                     Generation</a>
                     <a class="dropdown-item" href="realtimeresgen.aspx">RES
                     Generation</a>
-                    <a class="dropdown-item" href="#">Telemetry Issues</a>
-                    <a class="dropdown-item" href="#">NRLDC</a>
-                    <a class="dropdown-item" href="http://103.7.128.190/wbes/Report/Entitlement">Entitlements</a>
-                    <a class="dropdown-item" href="http://103.7.128.190/wbes/ReportNetSchedule/GetNetScheduleIndex">State
+                   
+                    
+                    <a class="dropdown-item"  target="_blank" onclick="return external()"href="http://103.7.128.190/wbes/Report/Entitlement">Entitlements</a>
+                    <a class="dropdown-item"  target="_blank" onclick="return external()"href="http://103.7.128.190/wbes/ReportNetSchedule/GetNetScheduleIndex">State
                     Drawl
                     Schedules</a>
-                    <a class="dropdown-item" href="https://distribution.pspcl.in/returns/module.php?to=NRLDC.powerSummary">Punjab Power
+                    <a class="dropdown-item"  target="_blank" onclick="return external()"href="https://distribution.pspcl.in/returns/module.php?to=NRLDC.powerSummary">Punjab Power
                     Summary</a>
                 </div>
             </li>
@@ -159,13 +167,13 @@
                 Links
                 </a>
                 <div class="dropdown-menu" aria-labelledby="Preview">
-                    <a class="dropdown-item" href="http://www.pstcl.org/">PSTCL</a>
-                    <a class="dropdown-item" href="http://www.pspcl.in/">PSPCL</a>
-                    <a class="dropdown-item" href="http://www.nrldc.in/">NRLDC</a>
-                    <a class="dropdown-item" href="http://www.cercind.gov.in/">CERC</a>
-                    <a class="dropdown-item" href="http://pserc.gov.in/">PSERC</a>
-                    <a class="dropdown-item" href="http://www.cea.nic.in/">CEA</a>
-                    <a class="dropdown-item" href="http://nrpc.gov.in/">NRPC</a>
+                    <a class="dropdown-item"  target="_blank" onclick="return external()"href="http://www.pstcl.org/">PSTCL</a>
+                    <a class="dropdown-item"  target="_blank" onclick="return external()"href="http://www.pspcl.in/">PSPCL</a>
+                    <a class="dropdown-item"  target="_blank" onclick="return external()"href="http://www.nrldc.in/">NRLDC</a>
+                    <a class="dropdown-item"  target="_blank" onclick="return external()"href="http://www.cercind.gov.in/">CERC</a>
+                    <a class="dropdown-item"  target="_blank" onclick="return external()"href="http://pserc.gov.in/">PSERC</a>
+                    <a class="dropdown-item"  target="_blank" onclick="return external()"href="http://www.cea.nic.in/">CEA</a>
+                    <a class="dropdown-item"  target="_blank" onclick="return external()"href="http://nrpc.gov.in/">NRPC</a>
                 </div>
             </li>
             <li class="nav-item dropdown">
