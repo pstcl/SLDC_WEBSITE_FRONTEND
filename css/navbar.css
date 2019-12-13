@@ -1,7 +1,10 @@
 .navbar-toggler {
-  width: 15%;
-  height: 10%;
+    width: 15%;
+    height: 10%;
+    margin: 6px 0;
+    transition: 0.4s;
+}
 
-  margin: 6px 0;
-  transition: 0.4s;
+.dropdown-menu {
+    margin-top: 0px;
 }
