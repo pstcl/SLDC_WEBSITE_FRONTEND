@@ -10,28 +10,33 @@
 
     <ul>
 	
-	
-      <li>
+	<li>
 
         <b>
-          <img style="margin-right: 6px; vertical-align: bottom;" src="images/logo/calendar.png" alt="new">Tue, 15th Oct, 2019</b>
-          <a href="downloads\sept2019\PublicNotice.pdf" class="a-red" target="_blank">
-           <br>  <img style="margin-right: 3px;" src="images/logo/new.gif" alt="new">
-             Public Notice (For Kind Attention of Solar and Wind Generators of Punjab)</a>
+		
+		
+          <img style="margin-right: 6px; vertical-align: bottom;" src="images/logo/calendar.png" alt="new">Mon, 27th Dec, 2019</b>
+          <a href="downloads\Dec2019\Public Nottice.pdf" class="a-red" target="_blank">
+            <br>
+             <img style="margin-right: 3px;" src="images/logo/new.gif" alt="new"> 
+			 	Kind attention of Open Access Customers/Solar & Wind Generators of Punjab
+</a>
           </li>
 
           <li>
             <hr>
-              
+			</li>
+
 	
-	
-      <li>
+	<li>
 
         <b>
-          <img style="margin-right: 6px; vertical-align: bottom;" src="images/logo/calendar.png" alt="new">Mon, 30th Sep, 2019</b>
-          <a href="downloads\sept2019\ApprovedFSProcedure.pdf" class="a-red" target="_blank">
+		
+		
+          <img style="margin-right: 6px; vertical-align: bottom;" src="images/logo/calendar.png" alt="new">Mon, 23th Dec, 2019</b>
+          <a href="downloads\Dec2019\ApprovedFSProcedure.pdf" class="a-red" target="_blank">
             <br>
-              Approved Procedure for Forecasting, Scheduling, Deviation settlement of Solar and wind Generation</a>
+             <img style="margin-right: 3px;" src="images/logo/new.gif" alt="new"> Revised Procedure for Forecasting, Scheduling, Deviation settlement of Solar and wind Generation</a>
           </li>
 
           <li>
@@ -42,11 +47,28 @@
 
 
                 <b>
-                  <img style="margin-right: 6px; vertical-align: bottom;" src="images/logo/calendar.png" alt="new">Mon, 30th Sep, 2019</b>
-                  <a href="downloads\sept2019\AnnexuresandFormats.pdf" class="a-red" target="_blank">
-                  <br>  Annexures and formats reated to forecasting, Scheduling, Deviation </a>
+                  <img style="margin-right: 6px; vertical-align: bottom;" src="images/logo/calendar.png" alt="new">Mon, 23th Dec, 2019</b>
+                  <a href="downloads\Dec2019\AnnexuresandFormats.pdf" class="a-red" target="_blank">
+                  <br> <img style="margin-right: 3px;" src="images/logo/new.gif" alt="new">Revised Annexures and formats reated to forecasting, Scheduling, Deviation </a>
                   </li>
 
+          <li>
+            <hr>
+			</li>
+	  
+	  <li>
+
+
+                <b>
+                  <img style="margin-right: 6px; vertical-align: bottom;" src="images/logo/calendar.png" alt="new">Mon, 23th Dec, 2019</b>
+                  <a href="downloads\Solar_Guidelines_min.pdf" class="a-red" target="_blank">
+                  <br><img style="margin-right: 3px;" src="images/logo/new.gif" alt="new"> GENERAL GUIDELINES REGARDING INTEGRATION OF RENEWABLE ENERGY SOURCES GENERATION PLANTS WITH SCADA SYSTEM (PUNJAB SLDC) </a>
+                  </li>
+
+     
+	
+	
+      
                   <ul>
 
 

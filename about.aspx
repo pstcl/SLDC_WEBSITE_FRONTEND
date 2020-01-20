@@ -256,11 +256,13 @@ Open Access office under Chief Engineer/SLDC, PSTCL, Patiala is a nodal agency i
 Open Access is being granted in discriminatorily by PSTCL to all the eligible open access customers embedded in Transmission and Distribution system of PSTCL & PSPCL as per provisions of Electricity Act-2003 and Open Access Regulations issued by Punjab State Electricity Regulatory Commission (PSERC) and Central </p><p>Electricity Regulatory Commission (CERC) from time to time.
 Open Access office also deals with the UI/ Deviation Settlement based energy accounting of Open Access customers transacting power on short term basis and IPPs selling power to PSPCL on long term basis. Besides records are maintained for energy scheduled under short term open access, UI/ Deviation and assessment of open access charges.
 </p><p><h5>
-Present Status (as on 31.10.2019)
-</h5>
-</p><p>Short Term Open Access for wheeling of power has been granted 2 no. captive consumers for intra-state wheeling of power from their own Captive Power Plant(s) under bilateral transactions. (Total 10.9 MW)
-</p><p>Short Term Open Access for inter-state purchase of power through collective (power exchange)/ bilateral transactions has been granted to 442 no. Large supply consumers of PSPCL (Powercom) (total 1823 MW approx.), out of which 3 no. active consumers with a total STOA granted for 31.11 MW (approx.) have valid consent as on date. These consumers are purchasing power through power exchange based on their day to day requirement and market trend.
-</p><p>To know about guidelines, procedure & formats for grant of Open Access, <a style="color: blue; text-decoration: underline; text-underline: single" class="text-theme-color" href="http://www.punjabsldc.org/oa.aspx">click 
+
+Present Status (as on 21.12.2019)</h5>
+Short Term Open Access for wheeling of power has been granted 2 no. captive consumers for intra-state wheeling of power from their own Captive Power Plant(s) under bilateral transactions. (Total 10.9 MW)
+Short Term Open Access for inter-state purchase of power through collective (power exchange)/ bilateral transactions has been granted to 442 no. Large supply consumers of PSPCL (Powercom) (total 1823 MW approx.), out of which 1 no. active consumers with a total STOA granted for 10.50 MW (approx.) have valid consent as on date. These consumers are purchasing power through power exchange based on their day to day requirement and market trend.
+Long Term Access has been granted by PSTCL to one no. Open Access consumer for purchase of power under Inter-State Bilateral Transaction (capacity-35 MW). 
+
+<p>To know about guidelines, procedure & formats for grant of Open Access, <a style="color: blue; text-decoration: underline; text-underline: single" class="text-theme-color" href="http://www.punjabsldc.org/oa.aspx">click 
 here</a>
 </p>
 					

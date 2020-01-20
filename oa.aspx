@@ -4,7 +4,28 @@
 
 	<div class="container">
 		<div class="row">
+		<div class="card col-md-12">
+				<div class="card-header">
+					<h5 class="card-title">
 			<h2>Open Access Information</h2>
+			</div>
+			<div class="card-body">
+
+					<ul class="list-group list-group-flush">
+					
+			<li class="list-group-item">
+							
+							<a href="downloads\Dec2019\Public Nottice.pdf" class="a-red" target="_blank">
+            <br>
+             <img style="margin-right: 3px;" src="images/logo/new.gif" alt="new"> 
+			 	Kind attention of Open Access Customers/Solar & Wind Generators of Punjab
+</a>
+							
+	</li>		
+</ul>	
+		
+				
+		</div>		
 		</div>
 
 		<div class="row">
